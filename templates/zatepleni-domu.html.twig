@@ -1,0 +1,10 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{parent()}}Zateplení domu{% endblock %}
+{% block description %}{{ parent() }}Zabezpečení objektu proti tepelným ztrátám a nastolení správné vnitřní teploty v letním a zimním období.{% endblock %}
+{% block keywords %}{{ parent() }}zateplení podkroví, izolace stěny, izolace střechy, zateplení domu, zateplení, izolace,{% endblock %}
+
+
+{% block body %}
+    {{ include('zatepleni.html.twig') }}
+{% endblock %}

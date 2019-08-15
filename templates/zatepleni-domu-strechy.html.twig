@@ -1,0 +1,43 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{parent()}}Izolace střechy{% endblock %}
+{% block description %}{{ parent() }}Stříkaná pěnová izolace na zateplení střechy.{% endblock %}
+{% block keywords %}{{ parent() }}izolace, střechy, izolace střechy, zateplení, zateplení střechy, Stříkaná pěnová izolace,{% endblock %}
+
+{% block body %}
+    {{ include('zatepleni.html.twig') }}
+    <div class="portfolio-modal modal fade in" id="strechyModal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <a href="{{ path('zatepleniDomu') }}" title="Zateplení domu">
+                    <div class="close-modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                </a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-success text-uppercase">Izolace střechy</h2>
+                                <p class="item-intro text-muted">Stříkaná pěnová izolace na zateplení střechy</p>
+                                <img class="img-fluid d-block mx-auto" src="{{ asset('img/izolace-strechy-full.jpg') }}" alt="">
+                                <p>
+                                    Tato aplikace se využívá především u stávajících objektů, kde není možné zasahovat do hotového podkroví.
+                                    Velmi často tak řešíme náhradu již nefunkční izolace z minerální vaty
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+        $('#strechyModal').modal('show');
+    </script>
+{% endblock %}

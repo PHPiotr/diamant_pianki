@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="cs" target-language="cs" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="gqNTf.D" resname="name">
+        <source>name</source>
+        <target>Jméno *</target>
+      </trans-unit>
+      <trans-unit id="U6NQhq1" resname="Jméno *">
+        <source>Jméno *</source>
+        <target>Jméno *</target>
+      </trans-unit>
+      <trans-unit id="giREF.l" resname="email">
+        <source>email</source>
+        <target>Email *</target>
+      </trans-unit>
+      <trans-unit id="1lLVFeu" resname="Email *">
+        <source>Email *</source>
+        <target>Email *</target>
+      </trans-unit>
+      <trans-unit id="RVadpX9" resname="phone">
+        <source>phone</source>
+        <target>Telefon *</target>
+      </trans-unit>
+      <trans-unit id="TJq4sGW" resname="Telefon *">
+        <source>Telefon *</source>
+        <target>Telefon *</target>
+      </trans-unit>
+      <trans-unit id="q1MKE_R" resname="message">
+        <source>message</source>
+        <target>Zpráva *</target>
+      </trans-unit>
+      <trans-unit id="UPdJLR6" resname="Zpráva *">
+        <source>Zpráva *</source>
+        <target>Zpráva *</target>
+      </trans-unit>
+      <trans-unit id="J84dG.Q" resname="send">
+        <source>send</source>
+        <target>Odeslat</target>
+      </trans-unit>
+      <trans-unit id="qmmhj7g" resname="Odeslat">
+        <source>Odeslat</source>
+        <target>Odeslat</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

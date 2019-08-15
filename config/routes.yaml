@@ -1,3 +1,30 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+uvod:
+    path: /
+    controller: App\Controller\DiamantController::uvod
+chytraPena:
+    path: /chytra-pena
+    controller: App\Controller\DiamantController::chytraPena
+zatepleniDomu:
+    path: /zatepleni-domu
+    controller: App\Controller\DiamantController::zatepleniDomu
+zatepleniDomuPodkrovi:
+    path: /zatepleni-domu/podkrovi
+    controller: App\Controller\DiamantController::zatepleniDomuPodkrovi
+zatepleniDomuSteny:
+    path: /zatepleni-domu/steny
+    controller: App\Controller\DiamantController::zatepleniDomuSteny
+zatepleniDomuStrechy:
+    path: /zatepleni-domu/strechy
+    controller: App\Controller\DiamantController::zatepleniDomuStrechy
+strikanaIzolace:
+    path: /strikana-izolace
+    controller: App\Controller\DiamantController::strikanaIzolace
+graco:
+    path: /graco
+    controller: App\Controller\DiamantController::graco
+kontakt:
+    path: /kontakt
+    controller: App\Controller\DiamantController::kontakt
+mapaStranek:
+    path: /mapa-stranek
+    controller: App\Controller\DiamantController::mapaStranek

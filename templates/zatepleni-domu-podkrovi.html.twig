@@ -1,0 +1,44 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{parent()}}Zateplení podkroví{% endblock %}
+{% block description %}{{ parent() }}Moderní, rychlé, ekonomické a ekologické zateplení v zimě hřeje a v létě chladí.{% endblock %}
+{% block keywords %}{{ parent() }}moderní zateplení, rychlé zateplení, ekonomické zateplení, ekologické zateplení, podkroví, zateplení podkroví, pěnová izolace do podkroví,{% endblock %}
+
+{% block body %}
+    {{ include('zatepleni.html.twig') }}
+    <div class="portfolio-modal modal fade in" id="podkroviModal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <a href="{{ path('zatepleniDomu') }}" title="Zateplení domu">
+                    <div class="close-modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                </a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-warning text-uppercase">Zateplení podkroví</h2>
+                                <img class="img-fluid d-block mx-auto" src="{{ asset('img/zatepleni-podkrovi-full.jpg') }}"
+                                     alt="Zateplení podkroví" title="Zateplení podkroví je nejdůležitější z celé konstrukce domu">
+                                <p>
+                                    Moderní, rychlé, ekonomické a ekologické zateplení vašeho podkroví.
+                                    Dokonalá izolace všech prostupů a spár.
+                                    Naše pěnová izolace do podkroví v zimě hřeje a v létě chladí.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+        $('#podkroviModal').modal('show');
+    </script>
+{% endblock %}
