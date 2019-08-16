@@ -1,15 +1,15 @@
 {% extends 'layout.html.twig' %}
 
-{% block title %}{{ parent() }}Izolace stěny{% endblock %}
-{% block description %}{{ parent() }}Pro izolace stěny a stropu lze použít jak měkkou, tak tvrdou pěnu.{% endblock %}
-{% block keywords %}{{ parent() }}izolace, stěny, strop, zateplení, zateplení domu, tvrdá pěna, měkká pěna,{% endblock %}
+{% block title %}{{ parent() }}{% trans %}house_insulation_walls_alt{% endtrans %}{% endblock %}
+{% block description %}{{ parent() }}{% trans %}house_insulation_walls_description{% endtrans %}{% endblock %}
+{% block keywords %}{{ parent() }}{% trans %}house_insulation_walls_keywords{% endtrans %}{% endblock %}
 
 {% block body %}
     {{ include('zatepleni.html.twig') }}
     <div class="portfolio-modal modal fade in" id="stenyModal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
         <div class="modal-dialog">
             <div class="modal-content">
-                <a href="{{ path('zatepleniDomu') }}" title="Zateplení domu">
+                <a href="{{ path('zatepleniDomu') }}" title="{% trans %}house_insulation{% endtrans %}">
                     <div class="close-modal">
                         <div class="lr">
                             <div class="rl"></div>
@@ -20,13 +20,11 @@
                     <div class="row">
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
-                                <h2 class="text-danger text-uppercase">Izolace stěny</h2>
+                                <h2 class="text-danger text-uppercase">{% trans %}house_insulation_walls_alt{% endtrans %}</h2>
+                                <p class="item-intro text-muted">{% trans %}house_insulation_walls_text_1{% endtrans %}</p>
                                 <img class="img-fluid d-block mx-auto" src="{{ asset('img/zatepleni-steny-a-stropu-full.jpg') }}"
-                                     alt="Izolace stěny a stropu" title="Pro izolace stěny a stropu lze použít jak měkkou, tak tvrdou pěnu">
-                                <p>
-                                    Měkkou pěnu používáme v místech, kde může být skrytá a příliš nezatěžovaná.
-                                    Tvrdá pěna úspěšně předchází vlhkosti stěn a vytváření plísní.
-                                </p>
+                                     alt="{% trans %}house_insulation_walls_alt{% endtrans %}" title="{% trans %}house_insulation_walls_text_1{% endtrans %}">
+                                <p>{% trans %}house_insulation_walls_text_2{% endtrans %}</p>
                             </div>
                         </div>
                     </div>

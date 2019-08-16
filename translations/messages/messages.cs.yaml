@@ -1,10 +1,110 @@
 name: Jméno *
-Jméno *: Jméno *
 email: Email *
-Email *: Email *
 phone: Telefon *
-Telefon *: Telefon *
 message: Zpráva *
-Zpráva *: Zpráva *
 send: Odeslat
-Odeslat: Odeslat
+keywords: Ostrava, Karviná, Opava, Olomouc, Brno,
+language_version: polská jazyková verze
+language_version_url: https://ocieplaniepiankadiamant.pl
+intelligent_foam: Chytrá pěna
+intelligent_foam_title: O nás, pěnová izolace, zateplení střechy, zateplení domu, izolace chaty
+intelligent_foam_heading: <strong>Stříkaná pěnová izolace</strong> známá pod názvy <strong>PUR pěna</strong>, <strong>stříkaná izolace</strong>, <strong>stříkaná pěna</strong>, <strong>pěnová izolace</strong>
+intelligent_foam_subheading_1: Rodinný dům zateplíme už za 1 den
+intelligent_foam_text_1: <strong>Správně izolovaný a těsný dům</strong> si během zimních měsíců uchovává teplo a v létě pak chládek,
+  protože v zimě brání úniku teplého vzduchu a v létě naopak vnikání teplého vzduchu.
+  <strong>Stříkaná izolace</strong> je díky svým vlastnostem vhodná pro <strong>kompletní zateplení obytných domů</strong>.
+  Stříkanou izolaci můžeme aplikovat kdekoliv v domě - podkroví, střecha, stěny, stropy, podlaha, fasáda, základy.
+intelligent_foam_subheading_2: Materiál v čase nemění své izolační vlastnosti
+intelligent_foam_text_2: <strong>Stříkaná izolační pěna</strong> - po její aplikaci nevznikají žádné netěsnosti a tepelné mosty,
+  ale díky jejím izolačním schopnostem lze <strong>reálně snížit náklady na vytápění až o 50%</strong>.
+  Nejvíce žádaná <strong>tepelná izolace</strong> současné doby, jedná se o <strong>zateplení nové generace</strong>
+  - bezvadně přilne ke všem materiálům. Plánujete kvalitně, účinně a moderně zateplit Vaši nemovitost?
+  <strong>Polyuretanová stříkané izolace</strong> spoří náklady i čas.
+intelligent_foam_subheading_3: Nejkvalitnější a nejúčinější tepelná izolace
+intelligent_foam_text_3: Používáme pěnu předního výrobce, kterou profesionálně aplikujeme za dodržení všech standardů kvality.
+  Výhody pěnové izolace znamenají <strong>snížení energetické spotřeby</strong>, které má za následek výraznou úsporu finanční.
+  <strong>Stříkaná pěnová izolace</strong> je v současnosti materiál s nejlepšími izolačními vlastnostmi.
+house_insulation: Zateplení domu
+house_insulation_title: Zateplení domu, zateplení půdy, zateplení střechy, zateplení podkroví
+house_insulation_description: Zabezpečení objektu proti tepelným ztrátám a nastolení správné vnitřní teploty v letním a zimním období.
+house_insulation_keywords: zateplení podkroví, izolace stěny, izolace střechy, zateplení domu, zateplení, izolace,
+house_insulation_heading: Zabezpečení objektu proti tepelným ztrátám a nastolení správné vnitřní teploty v letním a zimním období.
+house_insulation_attic_title: Zateplení domu - podkroví
+house_insulation_attic_alt: Zateplení podkroví
+house_insulation_attic_description: Moderní, rychlé, ekonomické a ekologické zateplení v zimě hřeje a v létě chladí.
+house_insulation_attic_keywords: moderní zateplení, rychlé zateplení, ekonomické zateplení, ekologické zateplení, podkroví, zateplení podkroví, pěnová izolace do podkroví,
+house_insulation_attic_text_1: Zateplení podkroví je nejdůležitější z celé konstrukce domu
+house_insulation_attic_text_2: Moderní, rychlé, ekonomické a ekologické zateplení vašeho podkroví.
+  Dokonalá izolace všech prostupů a spár.
+  Naše pěnová izolace do podkroví v zimě hřeje a v létě chladí.
+house_insulation_attic_heading: Podkroví
+house_insulation_attic_subheading: Zateplení podkroví je nejdůležitější z celé konstrukce domu.
+house_insulation_walls_title: Zateplení domu - stěny
+house_insulation_walls_alt: Izolace stěny a stropu
+house_insulation_walls_description: Pro izolace stěny a stropu lze použít jak měkkou, tak tvrdou pěnu.
+house_insulation_walls_keywords: izolace, stěny, strop, zateplení, zateplení domu, tvrdá pěna, měkká pěna,
+house_insulation_walls_text_1: Pro izolace stěny a stropu lze použít jak měkkou, tak tvrdou pěnu
+house_insulation_walls_text_2: Měkkou pěnu používáme v místech, kde může být skrytá a příliš nezatěžovaná.
+  Tvrdá pěna úspěšně předchází vlhkosti stěn a vytváření plísní.
+house_insulation_walls_heading: Stěny
+house_insulation_walls_subheading: Izolace stěny lze použít jak měkkou, tak tvrdou pěnu.
+house_insulation_roof_title: Zateplení domu - střechy
+house_insulation_roof_alt: Izolace střechy
+house_insulation_roof_description: Stříkaná pěnová izolace na zateplení střechy.
+house_insulation_roof_keywords: izolace, střechy, izolace střechy, zateplení, zateplení střechy, Stříkaná pěnová izolace,
+house_insulation_roof_text_1: Stříkaná pěnová izolace na zateplení střechy
+house_insulation_roof_text_2: Tato aplikace se využívá především u stávajících objektů, kde není možné zasahovat do hotového podkroví.
+  Velmi často tak řešíme náhradu již nefunkční izolace z minerální vaty
+house_insulation_roof_heading: Střechy
+house_insulation_roof_subheading: Izolace střechy zabráníte únikům tepla v zimě, omezíte prostup tepla v létě.
+spray_insulation: Stříkaná izolace
+spray_insulation_description: Tepelná stříkaná pěnová multifunkční izolace nové generace.
+spray_insulation_keywords: stříkaná, izolace, stříkaná izolace, tepelná, pěnová, zateplení, PUR,
+spray_insulation_heading: Tepelná stříkaná pěnová izolace
+spray_insulation_subheading: Provádíme zateplování domů stříkanou pěnou.
+spray_insulation_heading_1: Rychlé a kvalitní zateplení
+spray_insulation_subheading_1: Řešením je stříkaná izolace PUR pěnou považována za nejlepší izolaci vůbec.
+spray_insulation_heading_2: Rychlá návratnost investic
+spray_insulation_subheading_2: Stříkaná pěnová izolace zachovává neměnné parametry po celou dobu životnosti stavby
+spray_insulation_heading_3: Multifunkční izolace pro váš dům
+spray_insulation_subheading_3: Jedná se o zateplení nové generace, která bezvadně přilne ke všem materiálům.
+spray_insulation_title: Stříkaná izolace, pěnová izolace, izolace pěnou, zateplení pěnou, zateplení pur pěnou
+graco: Graco
+graco_title: Používáme zařízení Graco
+graco_description: Používáme zařízení Graco pro nástřik pěnové izolace v obytných a komerčních budovách.
+graco_keywords: Graco, graco, zařízení Graco, polyuretanové izolace, polyuretanové, izolace, izolace nástřikem,
+graco_subheading: Pěnové polyuretanové izolace nástřikem
+graco_text_1: Stříkací pistole pro aplikaci pěnové polyuretanové izolace nástřikem
+graco_text_2: Zařízení pro nástřik pěnové izolace v obytných a komerčních budovách
+graco_text_3: Dálkově ovládané pěnové a polymočovinové reaktory
+contact: Kontakt
+contact_title: Nezávazná poptávka stříkané izolace, zateplení
+contact_description: Neváhejte a kontaktujte nás!
+contact_keywords: kontakt, telefon, email, diamant,
+contact_email_title: Diamant Izolační Pěny
+contact_email_success: Tvoje zpráva byla úspěšně odeslána. Brzy vás budeme kontaktovat.
+gypsum_plasters: Sádrové omítky
+gypsum_plasters_title: Diamant sádrové omítky Ostrava, Karviná, Opava, Olomouc, Brno
+gypsum_plasters_url: https://sadroveomitkydiamant.cz
+footer_text: Rychlé a kvalitní zateplení pro vás realizujeme v následujících městech
+footer_city_1: Ostrava
+footer_city_2: Karviná
+footer_city_3: Opava
+footer_city_4: Olomouc
+footer_city_5: Brno
+footer_and_more: a další
+sitemap: Mapa stránek
+uvod_title: Stříkané izolační pěny
+uvod_description: Provádíme zateplování stříkanou pěnou. Pěnová izolace pro zateplení domu za jediný den.
+uvod_keywords: zateplování, zateplování domu, izolace, pěnová izolace, izolační pěny, stříkané izolační pěny, stříkané pěny,
+uvod_intro_1: Jsme&nbsp;aplikátor stříkané&nbsp;izolační&nbsp;pěny.
+uvod_intro_2: Proč izolovat s&nbsp;námi?
+uvod_more_info: Více informací
+uvod_text_1: Pěnová izolace pro zateplení domu
+uvod_price: 400Kč
+uvod_text_2: Rychlost aplikace do Vašeho interiéru - za jediný den.
+uvod_text_3: Nulové tepelné ztráty - chladivé klima v létě, útulné teplo v zimě.
+uvod_text_4: Nezávadnost - nežádoucí vlhkost, zima nebo plísně nepronikají do domu.
+uvod_text_5: Vysoký standard - naše materiály testujeme a podrobujeme různým zkouškám.
+error_not_found: Stránka nenalezena
+error_go_home: Návrat na domovskou stránku
