@@ -1,15 +1,15 @@
 {% extends 'layout.html.twig' %}
 
 {% block title %}{{parent()}}Kontakt{% endblock %}
-{% block description %}{{ parent() }}Neváhejte a kontaktujte nás! Telefon: {{ phone }}{% endblock %}
-{% block keywords %}{{ parent() }}kontakt, telefon, email, diamant{% endblock %}
+{% block description %}{{ parent() }}{% trans %}contact_description{% endtrans %} Telefon: {{ phone }}{% endblock %}
+{% block keywords %}{{ parent() }}{% trans %}contact_keywords{% endtrans %}{% endblock %}
 
 {% block body %}
 <section class="page-section" id="contact" style="background-image: url({{ asset('img/bg-diamant-kontakt.png') }});">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Neváhejte a kontaktujte nás!</h2>
+                <h2 class="section-heading text-uppercase">{% trans %}contact_description{% endtrans %}</h2>
                 <h3 class="section-subheading text-white">Telefon: {{ phone }}</h3>
             </div>
         </div>

@@ -1,15 +1,15 @@
 {% extends 'layout.html.twig' %}
 
-{% block title %}{{parent()}}Zateplení podkroví{% endblock %}
-{% block description %}{{ parent() }}Moderní, rychlé, ekonomické a ekologické zateplení v zimě hřeje a v létě chladí.{% endblock %}
-{% block keywords %}{{ parent() }}moderní zateplení, rychlé zateplení, ekonomické zateplení, ekologické zateplení, podkroví, zateplení podkroví, pěnová izolace do podkroví,{% endblock %}
+{% block title %}{{parent()}}{% trans %}house_insulation_attic_alt{% endtrans %}{% endblock %}
+{% block description %}{{ parent() }}{% trans %}house_insulation_attic_description{% endtrans %}{% endblock %}
+{% block keywords %}{{ parent() }}{% trans %}house_insulation_attic_keywords{% endtrans %}{% endblock %}
 
 {% block body %}
     {{ include('zatepleni.html.twig') }}
     <div class="portfolio-modal modal fade in" id="podkroviModal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
         <div class="modal-dialog">
             <div class="modal-content">
-                <a href="{{ path('zatepleniDomu') }}" title="Zateplení domu">
+                <a href="{{ path('zatepleniDomu') }}" title="{% trans %}house_insulation{% endtrans %}">
                     <div class="close-modal">
                         <div class="lr">
                             <div class="rl"></div>
@@ -20,14 +20,11 @@
                     <div class="row">
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
-                                <h2 class="text-warning text-uppercase">Zateplení podkroví</h2>
+                                <h2 class="text-warning text-uppercase">{% trans %}house_insulation_attic_alt{% endtrans %}</h2>
+                                <p class="item-intro text-muted">{% trans %}house_insulation_attic_text_1{% endtrans %}</p>
                                 <img class="img-fluid d-block mx-auto" src="{{ asset('img/zatepleni-podkrovi-full.jpg') }}"
-                                     alt="Zateplení podkroví" title="Zateplení podkroví je nejdůležitější z celé konstrukce domu">
-                                <p>
-                                    Moderní, rychlé, ekonomické a ekologické zateplení vašeho podkroví.
-                                    Dokonalá izolace všech prostupů a spár.
-                                    Naše pěnová izolace do podkroví v zimě hřeje a v létě chladí.
-                                </p>
+                                     alt="{% trans %}house_insulation_attic_alt{% endtrans %}" title="{% trans %}house_insulation_attic_text_1{% endtrans %}">
+                                <p>{% trans %}house_insulation_attic_text_2{% endtrans %}</p>
                             </div>
                         </div>
                     </div>

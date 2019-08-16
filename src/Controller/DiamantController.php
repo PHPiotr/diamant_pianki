@@ -112,7 +112,7 @@ class DiamantController extends AbstractController
 
             $data = $form->getData();
 
-            $message = (new Swift_Message('Diamant Izolační Pěny'))
+            $message = (new Swift_Message($translator->trans('contact_email_title')))
                 ->setFrom($data['email'])
                 ->setTo($this->getParameter('diamant_email'))
                 ->setBody($this->renderView('email/contact.html.twig', $data))
@@ -121,7 +121,7 @@ class DiamantController extends AbstractController
 
             $this->addFlash(
                 'success',
-                'Tvoje zpráva byla úspěšně odeslána. Brzy vás budeme kontaktovat.'
+                $translator->trans('contact_email_success')
             );
 
             return $this->redirectToRoute('kontakt');

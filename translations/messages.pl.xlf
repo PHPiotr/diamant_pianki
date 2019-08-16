@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="pl" target-language="cs" datatype="plaintext" original="file.ext">
+  <file source-language="pl" target-language="pl" datatype="plaintext" original="file.ext">
     <header>
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
       <trans-unit id="gqNTf.D" resname="name">
         <source>name</source>
-        <target>Jméno *</target>
+        <target>Imię *</target>
       </trans-unit>
       <trans-unit id="giREF.l" resname="email">
         <source>email</source>
@@ -19,27 +19,27 @@
       </trans-unit>
       <trans-unit id="q1MKE_R" resname="message">
         <source>message</source>
-        <target>Zpráva *</target>
+        <target>Wiadmość *</target>
       </trans-unit>
       <trans-unit id="J84dG.Q" resname="send">
         <source>send</source>
-        <target>Odeslat</target>
+        <target>Wyślij</target>
       </trans-unit>
       <trans-unit id="Z94NEID" resname="keywords">
         <source>keywords</source>
-        <target>Ostrava, Karviná, Opava, Olomouc, Brno,</target>
+        <target>Wodzisław Śląski, Rybnik, Jastrzębie Zdrój, Radlin, Rydułtowy, Pszów, Chałupki, Czyżowice, Gorzyce, śląskie,</target>
       </trans-unit>
       <trans-unit id="sCvWYZZ" resname="language_version">
         <source>language_version</source>
-        <target>polská jazyková verze</target>
+        <target>Czeska wersja językowa</target>
       </trans-unit>
       <trans-unit id="7gbMe3Q" resname="language_version_url">
         <source>language_version_url</source>
-        <target>https://izolacjenatryskowediamant.pl</target>
+        <target>https://chytrezateplenidiamant.cz</target>
       </trans-unit>
       <trans-unit id="_T33FiX" resname="intelligent_foam">
         <source>intelligent_foam</source>
-        <target>Chytrá pěna</target>
+        <target>Inteligentna pianka</target>
       </trans-unit>
       <trans-unit id="KQ3fdQZ" resname="intelligent_foam_title">
         <source>intelligent_foam_title</source>
@@ -47,35 +47,35 @@
       </trans-unit>
       <trans-unit id="DOqCZpt" resname="intelligent_foam_heading">
         <source>intelligent_foam_heading</source>
-        <target><![CDATA[<strong>Stříkaná pěnová izolace</strong> známá pod názvy <strong>PUR pěna</strong>, <strong>stříkaná izolace</strong>, <strong>stříkaná pěna</strong>, <strong>pěnová izolace</strong>]]></target>
+        <target><![CDATA[<strong>Natryskowa izolacja pianą</strong> znaną również jako <strong>PUR piana</strong>, <strong>piana pooliuretanowa</strong>, <strong>piana natryskwoa</strong>, <strong>piana izolacyjna</strong>]]></target>
       </trans-unit>
       <trans-unit id="AmmW1H3" resname="intelligent_foam_subheading_1">
         <source>intelligent_foam_subheading_1</source>
-        <target>Rodinný dům zateplíme už za 1 den</target>
+        <target>Jednorodzinny dom ocieplimy już w jeden dzień</target>
       </trans-unit>
       <trans-unit id="4pwLNlh" resname="intelligent_foam_text_1">
         <source>intelligent_foam_text_1</source>
-        <target><![CDATA[<strong>Správně izolovaný a těsný dům</strong> si během zimních měsíců uchovává teplo a v létě pak chládek, protože v zimě brání úniku teplého vzduchu a v létě naopak vnikání teplého vzduchu. <strong>Stříkaná izolace</strong> je díky svým vlastnostem vhodná pro <strong>kompletní zateplení obytných domů</strong>. Stříkanou izolaci můžeme aplikovat kdekoliv v domě - podkroví, střecha, stěny, stropy, podlaha, fasáda, základy.]]></target>
+        <target><![CDATA[<strong>Odpwiednio szczelnie zaizolowany dom</strong> utrzymuje ciepło w okresie zimowym, a chłodzi latem. Dzieje się tak dzięki inteligentnej pianie PUR, która zapobiega ucieczce ciepłego powietrza zimą oraz przenikaniu do wnętrza ciepłego powietrza latem. <strong>Piana izolacyjna</strong> dzięki swym właściwościom nadaje się do <strong>kompleksowego ocieplania domów jednorodzinnych</strong>. Można ją stosować na poddasza, dachy, ściany, stropy, podłogę, fasadę, fundamenty.]]></target>
       </trans-unit>
       <trans-unit id="pRnrE3i" resname="intelligent_foam_subheading_2">
         <source>intelligent_foam_subheading_2</source>
-        <target>Materiál v čase nemění své izolační vlastnosti</target>
+        <target>Materiał wraz z upływem czasu nie zmienia swoich izolacyjnych właściwości</target>
       </trans-unit>
       <trans-unit id="upqYXS6" resname="intelligent_foam_text_2">
         <source>intelligent_foam_text_2</source>
-        <target><![CDATA[<strong>Stříkaná izolační pěna</strong> - po její aplikaci nevznikají žádné netěsnosti a tepelné mosty, ale díky jejím izolačním schopnostem lze <strong>reálně snížit náklady na vytápění až o 50%</strong>. Nejvíce žádaná <strong>tepelná izolace</strong> současné doby, jedná se o <strong>zateplení nové generace</strong> - bezvadně přilne ke všem materiálům. Plánujete kvalitně, účinně a moderně zateplit Vaši nemovitost? <strong>Polyuretanová stříkané izolace</strong> spoří náklady i čas.]]></target>
+        <target><![CDATA[<strong>Natryskowa piana izolacyjna</strong> - po jej zastosowaniu nie występują żadne wycieki ani mostki termiczne, a dzięki jej izolacyjnym własnościom <strong>można realnie obniżyć koszty ocieplenia domu aż o 50%</strong>. Najbardziej pożądany sposób <strong>izolacji termicznej</strong> wsółczesnej doby, forma <strong>ocieplenia nowej generacji</strong> - nadaje sie doskonale do wszystkich materiałów. Planujesz ocieplić swoją nieruchomość w wysokiej jakości, wydajny i nowoczesny sposób? <strong>Poliuretanowa natryskowa izolacja</strong> sprawi, że zredukujesz koszty i zaszczędzisz czas.]]></target>
       </trans-unit>
       <trans-unit id="zDzUTvs" resname="intelligent_foam_subheading_3">
         <source>intelligent_foam_subheading_3</source>
-        <target>Nejkvalitnější a nejúčinější tepelná izolace</target>
+        <target>Najskuteczniejsza izolacja termiczna najwyższej jakości</target>
       </trans-unit>
       <trans-unit id="_Noknnw" resname="intelligent_foam_text_3">
         <source>intelligent_foam_text_3</source>
-        <target><![CDATA[Používáme pěnu předního výrobce, kterou profesionálně aplikujeme za dodržení všech standardů kvality. Výhody pěnové izolace znamenají <strong>snížení energetické spotřeby</strong>, které má za následek výraznou úsporu finanční. <strong>Stříkaná pěnová izolace</strong> je v současnosti materiál s nejlepšími izolačními vlastnostmi.]]></target>
+        <target><![CDATA[Używamy pianki wiodącego producenta, którą stosujemy profesjonalnie zgodnie ze wszystkimi standardami jakości. Korzyści z izolacji piankowej oznaczają <strong>zmniejszenie zużycia energii</strong>, a co za tym idzie znaczne oszczędności finansowe. <strong>Izolacyjna pianka natryskowa</strong> to obecnie materiał o najlepszych właściwościach izolacyjnych.]]></target>
       </trans-unit>
       <trans-unit id="ijx8TrP" resname="house_insulation">
         <source>house_insulation</source>
-        <target>Zateplení domu</target>
+        <target>Ocieplanie domu</target>
       </trans-unit>
       <trans-unit id="bgHR08s" resname="house_insulation_title">
         <source>house_insulation_title</source>
@@ -83,23 +83,23 @@
       </trans-unit>
       <trans-unit id="ZYpD6br" resname="house_insulation_description">
         <source>house_insulation_description</source>
-        <target>Zabezpečení objektu proti tepelným ztrátám a nastolení správné vnitřní teploty v letním a zimním období.</target>
+        <target>Zabezpieczenie budynku przed utratą ciepła i utrzymanie prawidłowej temperatury wewnątrz latem i zimą.</target>
       </trans-unit>
       <trans-unit id="beotSsz" resname="house_insulation_keywords">
         <source>house_insulation_keywords</source>
-        <target>zateplení podkroví, izolace stěny, izolace střechy, zateplení domu, zateplení, izolace,</target>
+        <target>ocieplanie poddasza, izolacja ścian, izolacja dachu, ocieplanie domu, ocieplanie, izolacja,</target>
       </trans-unit>
       <trans-unit id="4BR4Kzu" resname="house_insulation_heading">
         <source>house_insulation_heading</source>
-        <target>Zabezpečení objektu proti tepelným ztrátám a nastolení správné vnitřní teploty v letním a zimním období.</target>
+        <target>Zabezpieczenie budynku przed utratą ciepła i utrzymanie prawidłowej temperatury wewnątrz latem i zimą.</target>
       </trans-unit>
       <trans-unit id="kPVJxXa" resname="house_insulation_attic_title">
         <source>house_insulation_attic_title</source>
-        <target>Zateplení domu - podkroví</target>
+        <target>Ocieplanie domu - poddasze</target>
       </trans-unit>
       <trans-unit id="Wlrly25" resname="house_insulation_attic_alt">
         <source>house_insulation_attic_alt</source>
-        <target>Zateplení podkroví</target>
+        <target>Ocieplanie poddasza</target>
       </trans-unit>
       <trans-unit id="J0ay5EQ" resname="house_insulation_attic_description">
         <source>house_insulation_attic_description</source>
@@ -119,19 +119,19 @@
       </trans-unit>
       <trans-unit id="MxQKHt3" resname="house_insulation_attic_heading">
         <source>house_insulation_attic_heading</source>
-        <target>Podkroví</target>
+        <target>Poddasze</target>
       </trans-unit>
       <trans-unit id="eJCjU3I" resname="house_insulation_attic_subheading">
         <source>house_insulation_attic_subheading</source>
-        <target>Zateplení podkroví je nejdůležitější z celé konstrukce domu.</target>
+        <target>Izolacja poddasza jest najważniejsza w perspektywie całej konstrukcji domu.</target>
       </trans-unit>
       <trans-unit id="TW9O_N3" resname="house_insulation_walls_title">
         <source>house_insulation_walls_title</source>
-        <target>Zateplení domu - stěny</target>
+        <target>Ocieplanie domu - ściany</target>
       </trans-unit>
       <trans-unit id="mmQmcgu" resname="house_insulation_walls_alt">
         <source>house_insulation_walls_alt</source>
-        <target>Izolace stěny a stropu</target>
+        <target>Izolacja ścian i stropu</target>
       </trans-unit>
       <trans-unit id="4h7XFTn" resname="house_insulation_walls_description">
         <source>house_insulation_walls_description</source>
@@ -151,19 +151,19 @@
       </trans-unit>
       <trans-unit id="LidcjpK" resname="house_insulation_walls_heading">
         <source>house_insulation_walls_heading</source>
-        <target>Stěny</target>
+        <target>Ściany</target>
       </trans-unit>
       <trans-unit id="FmUrfdK" resname="house_insulation_walls_subheading">
         <source>house_insulation_walls_subheading</source>
-        <target>Izolace stěny lze použít jak měkkou, tak tvrdou pěnu.</target>
+        <target>Izolację ścian można wykonywać zarówno przy pomocy miękkiej, jak i twardej pianki.</target>
       </trans-unit>
       <trans-unit id="Syfqe5C" resname="house_insulation_roof_title">
         <source>house_insulation_roof_title</source>
-        <target>Zateplení domu - střechy</target>
+        <target>Ocieplanie domu - dach</target>
       </trans-unit>
       <trans-unit id="3XtVkLh" resname="house_insulation_roof_alt">
         <source>house_insulation_roof_alt</source>
-        <target>Izolace střechy</target>
+        <target>Izolacja dachu</target>
       </trans-unit>
       <trans-unit id="iat1xx1" resname="house_insulation_roof_description">
         <source>house_insulation_roof_description</source>
@@ -183,15 +183,15 @@
       </trans-unit>
       <trans-unit id="CHOsuaD" resname="house_insulation_roof_heading">
         <source>house_insulation_roof_heading</source>
-        <target>Střechy</target>
+        <target>Dach</target>
       </trans-unit>
       <trans-unit id="4LQjS7N" resname="house_insulation_roof_subheading">
         <source>house_insulation_roof_subheading</source>
-        <target>Izolace střechy zabráníte únikům tepla v zimě, omezíte prostup tepla v létě.</target>
+        <target>Izolacja dachu zapobiega utracie ciepła zimą i zmniejsza przenikanie ciepła do wnętrza latem.</target>
       </trans-unit>
       <trans-unit id="n9zNlOs" resname="spray_insulation">
         <source>spray_insulation</source>
-        <target>Stříkaná izolace</target>
+        <target>Izolacje natryskowe</target>
       </trans-unit>
       <trans-unit id="nFKiG7m" resname="spray_insulation_description">
         <source>spray_insulation_description</source>
@@ -239,11 +239,11 @@
       </trans-unit>
       <trans-unit id="ZNQNALY" resname="graco">
         <source>graco</source>
-        <target>Graco</target>
+        <target>__graco</target>
       </trans-unit>
       <trans-unit id="PuLHMPQ" resname="graco_title">
         <source>graco_title</source>
-        <target>Používáme zařízení Graco</target>
+        <target>__graco_title</target>
       </trans-unit>
       <trans-unit id="YWdH5I8" resname="graco_description">
         <source>graco_description</source>
@@ -271,11 +271,11 @@
       </trans-unit>
       <trans-unit id="CT59X9u" resname="contact">
         <source>contact</source>
-        <target>Kontakt</target>
+        <target>__contact</target>
       </trans-unit>
       <trans-unit id="8EbIby1" resname="contact_title">
         <source>contact_title</source>
-        <target>Nezávazná poptávka stříkané izolace, zateplení</target>
+        <target>__contact_title</target>
       </trans-unit>
       <trans-unit id="8XTo92I" resname="contact_description">
         <source>contact_description</source>
@@ -295,15 +295,15 @@
       </trans-unit>
       <trans-unit id="3C96OEr" resname="gypsum_plasters">
         <source>gypsum_plasters</source>
-        <target>Sádrové omítky</target>
+        <target>__gypsum_plasters</target>
       </trans-unit>
       <trans-unit id="4NAYdIN" resname="gypsum_plasters_title">
         <source>gypsum_plasters_title</source>
-        <target>Diamant sádrové omítky Ostrava, Karviná, Opava, Olomouc, Brno</target>
+        <target>__gypsum_plasters_title</target>
       </trans-unit>
       <trans-unit id="O4wMhzX" resname="gypsum_plasters_url">
         <source>gypsum_plasters_url</source>
-        <target>https://sadroveomitkydiamant.cz</target>
+        <target>__gypsum_plasters_url</target>
       </trans-unit>
       <trans-unit id="AsGyRlu" resname="footer_text">
         <source>footer_text</source>
@@ -311,31 +311,31 @@
       </trans-unit>
       <trans-unit id="O8ZehCg" resname="footer_city_1">
         <source>footer_city_1</source>
-        <target>Ostrava</target>
+        <target>Wodzisław Śl.</target>
       </trans-unit>
       <trans-unit id="OiSJc_z" resname="footer_city_2">
         <source>footer_city_2</source>
-        <target>Karviná</target>
+        <target>Rybnik</target>
       </trans-unit>
       <trans-unit id="IQ2Bd.z" resname="footer_city_3">
         <source>footer_city_3</source>
-        <target>Opava</target>
+        <target>Pszów</target>
       </trans-unit>
       <trans-unit id="2cgnr89" resname="footer_city_4">
         <source>footer_city_4</source>
-        <target>Olomouc</target>
+        <target>Jastrzębie Zdrój</target>
       </trans-unit>
       <trans-unit id="o9IXRrp" resname="footer_city_5">
         <source>footer_city_5</source>
-        <target>Brno</target>
+        <target>Rydułtowy</target>
       </trans-unit>
       <trans-unit id="iBbfc9n" resname="footer_and_more">
         <source>footer_and_more</source>
-        <target>a další</target>
+        <target>i dalej w woj. śląskim</target>
       </trans-unit>
       <trans-unit id="aw0cVYy" resname="sitemap">
         <source>sitemap</source>
-        <target>Mapa stránek</target>
+        <target>Mapa strony</target>
       </trans-unit>
       <trans-unit id="odC.DS4" resname="uvod_title">
         <source>uvod_title</source>
@@ -393,9 +393,9 @@
         <source>error_go_home</source>
         <target>Návrat na domovskou stránku</target>
       </trans-unit>
-      <trans-unit id="U6NQhq1" resname="Jméno *">
-        <source>Jméno *</source>
-        <target>Jméno *</target>
+      <trans-unit id="4ncUT5Q" resname="Imię *">
+        <source>Imię *</source>
+        <target>Imię *</target>
       </trans-unit>
       <trans-unit id="1lLVFeu" resname="Email *">
         <source>Email *</source>
@@ -405,17 +405,21 @@
         <source>Telefon *</source>
         <target>Telefon *</target>
       </trans-unit>
-      <trans-unit id="UPdJLR6" resname="Zpráva *">
-        <source>Zpráva *</source>
-        <target>Zpráva *</target>
+      <trans-unit id="kgNQ.OM" resname="Wiadmość *">
+        <source>Wiadmość *</source>
+        <target>Wiadmość *</target>
       </trans-unit>
-      <trans-unit id="qmmhj7g" resname="Odeslat">
-        <source>Odeslat</source>
-        <target>Odeslat</target>
+      <trans-unit id="j_MBx12" resname="Wyślij">
+        <source>Wyślij</source>
+        <target>Wyślij</target>
       </trans-unit>
-      <trans-unit id="X8BXLEs" resname="polská jazyková verze">
-        <source>polská jazyková verze</source>
-        <target>polská jazyková verze</target>
+      <trans-unit id=".17vyGf" resname="Czeska wersja językowa">
+        <source>Czeska wersja językowa</source>
+        <target>Czeska wersja językowa</target>
+      </trans-unit>
+      <trans-unit id="ZrhjqM1" resname="Polska wersja językowa">
+        <source>Polska wersja językowa</source>
+        <target>Czeska wersja językowa</target>
       </trans-unit>
     </body>
   </file>

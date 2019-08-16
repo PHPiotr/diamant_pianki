@@ -1,26 +1,26 @@
 {% extends 'layout.html.twig' %}
 
-{% block title %}{{parent()}}Mapa stránek{% endblock %}
+{% block title %}{{parent()}}{% trans %}sitemap{% endtrans %}{% endblock %}
 
 {% block body %}
     <section class="bg-light page-section" style="background-image: url({{ asset('img/bg-diamant-mapa-stranek.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Mapa stránek</h2>
+                    <h2 class="section-heading text-uppercase">{% trans %}sitemap{% endtrans %}</h2>
                 </div>
             </div>
             <div class="row">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="{{ path('uvod') }}" title="Diamant – zateplování stříkanou pěnou">Diamant – zateplování stříkanou pěnou</a></li>
-                    <li class="list-group-item"><a href="{{ path('chytraPena') }}" title="Chytrá pěna">Chytrá pěna</a></li>
-                    <li class="list-group-item"><a class="text-danger" href="{{ path('zatepleniDomu') }}" title="Zateplení domu">Zateplení domu</a></li>
-                    <li class="list-group-item"><a class="text-danger" href="{{ path('zatepleniDomuPodkrovi') }}" title="Zateplení domu - podkroví">Zateplení domu - podkroví</a></li>
-                    <li class="list-group-item"><a class="text-danger" href="{{ path('zatepleniDomuSteny') }}" title="Zateplení domu - stěny">Zateplení domu - stěny</a></li>
-                    <li class="list-group-item"><a class="text-danger" href="{{ path('zatepleniDomuStrechy') }}" title="Zateplení domu - střechy">Zateplení domu - střechy</a></li>
-                    <li class="list-group-item"><a class="text-success" href="{{ path('strikanaIzolace') }}" title="Stříkaná izolace">Stříkaná izolace</a></li>
-                    <li class="list-group-item"><a class="text-success" href="{{ path('graco') }}" title="Používáme zařízení Graco">Používáme zařízení Graco</a></li>
-                    <li class="list-group-item"><a class="text-success" href="{{ path('kontakt') }}" title="Nezávazná poptávka">Kontakt</a></li>
+                    <li class="list-group-item"><a href="{{ path('uvod') }}" title="Diamant – {% trans %}uvod_title{% endtrans %}">Diamant – {% trans %}uvod_title{% endtrans %}</a></li>
+                    <li class="list-group-item"><a href="{{ path('chytraPena') }}" title="{% trans %}intelligent_foam{% endtrans %}">{% trans %}intelligent_foam{% endtrans %}</a></li>
+                    <li class="list-group-item"><a class="text-danger" href="{{ path('zatepleniDomu') }}" title="{% trans %}house_insulation{% endtrans %}">{% trans %}house_insulation{% endtrans %}</a></li>
+                    <li class="list-group-item"><a class="text-danger" href="{{ path('zatepleniDomuPodkrovi') }}" title="{% trans %}house_insulation_attic_title{% endtrans %}">{% trans %}house_insulation_attic_title{% endtrans %}</a></li>
+                    <li class="list-group-item"><a class="text-danger" href="{{ path('zatepleniDomuSteny') }}" title="{% trans %}house_insulation_walls_title{% endtrans %}">{% trans %}house_insulation_walls_title{% endtrans %}</a></li>
+                    <li class="list-group-item"><a class="text-danger" href="{{ path('zatepleniDomuStrechy') }}" title="{% trans %}house_insulation_roof_title{% endtrans %}">{% trans %}house_insulation_roof_title{% endtrans %}</a></li>
+                    <li class="list-group-item"><a class="text-success" href="{{ path('strikanaIzolace') }}" title="{% trans %}spray_insulation{% endtrans %}">{% trans %}spray_insulation{% endtrans %}</a></li>
+                    <li class="list-group-item"><a class="text-success" href="{{ path('graco') }}" title="{% trans %}graco_title{% endtrans %}">{% trans %}graco_title{% endtrans %}</a></li>
+                    <li class="list-group-item"><a class="text-success" href="{{ path('kontakt') }}" title="{% trans %}contact_title{% endtrans %}">Kontakt</a></li>
                 </ul>
             </div>
         </div>

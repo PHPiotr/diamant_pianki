@@ -1,8 +1,8 @@
 {% extends 'layout.html.twig' %}
 
-{% block title %}{{ parent() }}Stříkané izolační pěny{% endblock %}
-{% block description %}{{ parent() }}Provádíme zateplování stříkanou pěnou. Pěnová izolace pro zateplení domu za jediný den.{% endblock %}
-{% block keywords %}{{ parent() }}zateplování, zateplování domu, izolace, pěnová izolace, izolační pěny, stříkané izolační pěny, stříkané pěny,{% endblock %}
+{% block title %}{{ parent() }}{% trans %}uvod_title{% endtrans %}{% endblock %}
+{% block description %}{{ parent() }}{% trans %}uvod_description{% endtrans %}{% endblock %}
+{% block keywords %}{{ parent() }}{% trans %}uvod_keywords{% endtrans %}{% endblock %}
 
 {% block stylesheets %}
     {{ parent() }}
@@ -19,11 +19,11 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12 text-center">
                     <div class="intro-text">
-                        <div class="intro-lead-in">Jsme&nbsp;aplikátor stříkané&nbsp;izolační&nbsp;pěny</div>
-                        <div class="text-danger intro-heading text-uppercase">Proč izolovat s&nbsp;námi?</div>
-                        <div class="text-danger intro-heading text-success"></div>
-                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Více
-                            informací</a>
+                        <div class="intro-lead-in">{% trans %}uvod_intro_1{% endtrans %}</div>
+                        <div class="text-danger intro-heading text-uppercase">{% trans %}uvod_intro_2{% endtrans %}</div>
+                        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">
+                            {% trans %}uvod_more_info{% endtrans %}
+                        </a>
                     </div>
                 </div>
             </div>
@@ -41,35 +41,35 @@
 
             <div class="card mb-4 shadow-sm">
                 <div class="card-header bg-warning">
-                    <h4 class="text-white my-0 font-weight-normal">Pěnová izolace pro zateplení domu</h4>
+                    <h4 class="text-white my-0 font-weight-normal">{% trans %}uvod_text_1{% endtrans %}</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title"><span class="text-danger">400Kč</span> <small class="text-muted">/ 20cm /
+                    <h1 class="card-title pricing-card-title"><span class="text-danger">{% trans %}uvod_price{% endtrans %}</span> <small class="text-muted">/ 20cm /
                             m<sup>2</sup></small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>
                             <span class="fa-stack fa-1x">
                                 <i class="fas fa-check-circle fa-stack-1x text-success"></i>
                             </span>
-                            Rychlost aplikace do Vašeho interiéru - za jediný den.
+                            {% trans %}uvod_text_2{% endtrans %}
                         </li>
                         <li>
                             <span class="fa-stack fa-1x">
                                 <i class="fas fa-check-circle fa-stack-1x text-success"></i>
                             </span>
-                            Nulové tepelné ztráty - chladivé klima v létě, útulné teplo v zimě
+                            {% trans %}uvod_text_3{% endtrans %}
                         </li>
                         <li>
                             <span class="fa-stack fa-1x">
                                 <i class="fas fa-check-circle fa-stack-1x text-success"></i>
                             </span>
-                            Nezávadnost - nežádoucí vlhkost, zima nebo plísně nepronikají do domu
+                            {% trans %}uvod_text_4{% endtrans %}
                         </li>
                         <li>
                             <span class="fa-stack fa-1x">
                                 <i class="fas fa-check-circle fa-stack-1x text-success"></i>
                             </span>
-                            Vysoký standard - naše materiály testujeme a podrobujeme různým zkouškám
+                            {% trans %}uvod_text_5{% endtrans %}
                         </li>
                     </ul>
                 </div>

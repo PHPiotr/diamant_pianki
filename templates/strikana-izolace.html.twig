@@ -1,38 +1,38 @@
 {% extends 'layout.html.twig' %}
 
-{% block title %}{{parent()}}Stříkaná izolace{% endblock %}
-{% block description %}{{ parent() }}Tepelná stříkaná pěnová multifunkční izolace nové generace.{% endblock %}
-{% block keywords %}{{ parent() }}stříkaná, izolace, stříkaná izolace, tepelná, pěnová, zateplení, PUR,{% endblock %}
+{% block title %}{{parent()}}{% trans %}spray_insulation{% endtrans %}{% endblock %}
+{% block description %}{{ parent() }}{% trans %}spray_insulation_description{% endtrans %}{% endblock %}
+{% block keywords %}{{ parent() }}{% trans %}spray_insulation_keywords{% endtrans %}{% endblock %}
 
 {% block body %}
     <section class="bg-light page-section" id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Tepelná stříkaná pěnová izolace</h2>
-                    <h3 class="section-subheading text-muted">Provádíme zateplování domů stříkanou pěnou.</h3>
+                    <h2 class="section-heading text-uppercase">{% trans %}spray_insulation_heading{% endtrans %}</h2>
+                    <h3 class="section-subheading text-muted">{% trans %}spray_insulation_subheading{% endtrans %}</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="{{ asset('img/penova-izolace-1.jpg') }}" alt="">
-                        <h4 class="text-warning">Rychlé a kvalitní zateplení</h4>
-                        <p class="text-muted">Řešením je stříkaná izolace PUR pěnou považována za nejlepší izolaci vůbec.</p>
+                        <h4 class="text-warning">{% trans %}spray_insulation_heading_1{% endtrans %}</h4>
+                        <p class="text-muted">{% trans %}spray_insulation_subheading_1{% endtrans %}</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="{{ asset('img/penova-izolace-2.jpg') }}" alt="">
-                        <h4 class="text-danger">Rychlá návratnost investic</h4>
-                        <p class="text-muted">Stříkaná pěnová izolace zachovává neměnné parametry po celou dobu životnosti stavby</p>
+                        <h4 class="text-danger">{% trans %}spray_insulation_heading_2{% endtrans %}</h4>
+                        <p class="text-muted">{% trans %}spray_insulation_subheading_2{% endtrans %}</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="{{ asset('img/penova-izolace-3.jpg') }}" alt="">
-                        <h4 class="text-success">Multifunkční izolace pro váš dům</h4>
-                        <p class="text-muted">Jedná se o zateplení nové generace, která bezvadně přilne ke všem materiálům.</p>
+                        <h4 class="text-success">{% trans %}spray_insulation_heading_3{% endtrans %}</h4>
+                        <p class="text-muted">{% trans %}spray_insulation_subheading_3{% endtrans %}</p>
                     </div>
                 </div>
             </div>
