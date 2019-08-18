@@ -44,45 +44,46 @@ house_insulation_walls_alt: Izolacja ścian i stropu
 house_insulation_walls_description: Do izolacji ścian i sufitów można stosować zarówno miękką, jak i twardą piankę.
 house_insulation_walls_keywords: izolacja, ściany, sufit, izolacja, izolacja domu, twarda pianka, miękka pianka,
 house_insulation_walls_text_1: Do izolacji ścian i sufitów można stosować zarówno miękką, jak i twardą piankę.
-house_insulation_walls_text_2: Měkkou pěnu používáme v místech, kde může být skrytá a příliš nezatěžovaná.
-  Tvrdá pěna úspěšně předchází vlhkosti stěn a vytváření plísní.
+house_insulation_walls_text_2: Pianę miękką (z otwartymi komórkami) wykorzystuję się do ocieplania poddaszy i ścian. Otrzymuje się również efekt znacznego wytłumienia hałasu, co jest istotne w przypadku ścianek działowych. Możemy ją stosować bezpośrednio na deski oraz na membranę.
+  Piana sztywna (z zamkniętymi komórkami) jest wodoodporna i nie przepuszcza pary wodnej. Może być stosowana w nowych, jak i już eksploatowanych miejscach. Służy do izolacji stropów, ścian i fundamentów.
+  Zamiast ocieplać dom papą można go zabezpieczyć gęstą pianą sztywną.
 house_insulation_walls_heading: Ściany
 house_insulation_walls_subheading: Izolację ścian można wykonywać zarówno przy pomocy miękkiej, jak i twardej pianki.
 house_insulation_roof_title: Ocieplanie domu - dach
 house_insulation_roof_alt: Izolacja dachu
-house_insulation_roof_description: Stříkaná pěnová izolace na zateplení střechy.
-house_insulation_roof_keywords: izolace, střechy, izolace střechy, zateplení, zateplení střechy, Stříkaná pěnová izolace,
-house_insulation_roof_text_1: Stříkaná pěnová izolace na zateplení střechy
-house_insulation_roof_text_2: Tato aplikace se využívá především u stávajících objektů, kde není možné zasahovat do hotového podkroví.
-  Velmi často tak řešíme náhradu již nefunkční izolace z minerální vaty
+house_insulation_roof_description: Natryskowa izolacja piankowa do izolacji dachu.
+house_insulation_roof_keywords: izolacja, dachy, izolacja dachu, izolacja termiczna, izolacja dachu, izolacja z pianki natryskowej,
+house_insulation_roof_text_1: Natryskowa izolacja piankowa do izolacji dachu.
+house_insulation_roof_text_2: Izolację dachu stosuje się głównie w przypadku budynków, w których nie można ingerować w gotowy strych.
+     Bardzo często mamy też w przypadku izolowania dachu do czynienia z wymianą niedziałającej już izolacji z wełny mineralnej.
 house_insulation_roof_heading: Dach
 house_insulation_roof_subheading: Izolacja dachu zapobiega utracie ciepła zimą i zmniejsza przenikanie ciepła do wnętrza latem.
 spray_insulation: Izolacje natryskowe
-spray_insulation_description: Tepelná stříkaná pěnová multifunkční izolace nové generace.
-spray_insulation_keywords: stříkaná, izolace, stříkaná izolace, tepelná, pěnová, zateplení, PUR,
-spray_insulation_heading: Tepelná stříkaná pěnová izolace
-spray_insulation_subheading: Provádíme zateplování domů stříkanou pěnou.
-spray_insulation_heading_1: Rychlé a kvalitní zateplení
-spray_insulation_subheading_1: Řešením je stříkaná izolace PUR pěnou považována za nejlepší izolaci vůbec.
-spray_insulation_heading_2: Rychlá návratnost investic
-spray_insulation_subheading_2: Stříkaná pěnová izolace zachovává neměnné parametry po celou dobu životnosti stavby
-spray_insulation_heading_3: Multifunkční izolace pro váš dům
-spray_insulation_subheading_3: Jedná se o zateplení nové generace, která bezvadně přilne ke všem materiálům.
+spray_insulation_description: Izolacja termiczna wielofunkcyjną pianką nowej generacji.
+spray_insulation_keywords: natrysk, izolacja, natrysk izolacja, termiczna, pianka, izolacja termiczna, PUR,
+spray_insulation_heading: Izolacja termiczna pianką natryskową
+spray_insulation_subheading: Prowadzimy izolację termiczną domów pianką metodą natryskową.
+spray_insulation_heading_1: Wysokiej jakości, szybka izolacja
+spray_insulation_subheading_1: Rozwiązaniem jest natryskowa izolacja pianką PUR, która jest uważana za najlepszy materiał izolacyjny w historii.
+spray_insulation_heading_2: Szybki zwrot z inwestycji
+spray_insulation_subheading_2: Natryskowa izolacja piankowa utrzymuje stałe parametry przez cały okres użytkowania budynku
+spray_insulation_heading_3: Wielofunkcyjna izolacja Twojego domu
+spray_insulation_subheading_3: Jest to nowa generacja izolacji, która idealnie pasuje do wszystkich materiałów.
 spray_insulation_title: Natryskowa izolacja, izolacja pianą, izolacja pianką poliuretanową, ocieplanie pianą PUR
 graco: Graco
 graco_title: Stosujemy urządzenia Graco
-graco_description: Používáme zařízení Graco pro nástřik pěnové izolace v obytných a komerčních budovách.
-graco_keywords: Graco, graco, zařízení Graco, polyuretanové izolace, polyuretanové, izolace, izolace nástřikem,
-graco_subheading: Pěnové polyuretanové izolace nástřikem
-graco_text_1: Stříkací pistole pro aplikaci pěnové polyuretanové izolace nástřikem
-graco_text_2: Zařízení pro nástřik pěnové izolace v obytných a komerčních budovách
-graco_text_3: Dálkově ovládané pěnové a polymočovinové reaktory
+graco_description: Używamy urządzeń Graco do natryskowej izolacji piankowej w budynkach mieszkalnych i komercyjnych.
+graco_keywords: Graco, graco, sprzęt Graco, izolacja poliuretanowa, izolacja natryskowa,
+graco_subheading: Izolacja metodą natryskową pianką izolacyjną
+graco_text_1: Pistolet natryskowy do nakładania izolacyjnej pianki poliuretanowej
+graco_text_2: Sprzęt do natryskiwania izolacji piankowej w budynkach mieszkalnych i komercyjnych
+graco_text_3: Zdalnie sterowane reaktory pianowe
 contact: Kontakt
 contact_title: Zapytanie o izolację natryskową, ocieplenie domu
-contact_description: Neváhejte a kontaktujte nás!
+contact_description: Skontaktuj się z nami!
 contact_keywords: kontakt, telefon, email, diamant,
-contact_email_title: Diamant Izolační Pěny
-contact_email_success: Tvoje zpráva byla úspěšně odeslána. Brzy vás budeme kontaktovat.
+contact_email_title: Diamant Piany Izolacyjne
+contact_email_success: Twoja wiadomość została wysłana pomyślnie. Skontaktujemy się z Tobą wkrótce.
 gypsum_plasters: Tynki gipsowe
 gypsum_plasters_title: Diamant tynki gipsowe Wodzisław Śląski, Rybnik, Pszów, Jastrzębie Zdrój, Rydułtowy, śląskie
 gypsum_plasters_url: https://www.tynkigipsowediamant.pl
@@ -106,5 +107,5 @@ uvod_text_2: Szybkość wykonania izolacji domu - w ciągu jednego dnia
 uvod_text_3: Zero strat ciepła - chłodny klimat latem, przytulne ciepło zimą
 uvod_text_4: Bezpieczeństwo - niechciana wilgoć, zimno, pleśń nie przenikają do domu
 uvod_text_5: Wysoki standard - używamy materiałów i narzędzi najwyższej jakości
-error_not_found: Stránka nenalezena
-error_go_home: Návrat na domovskou stránku
+error_not_found: Strony nie dnaleziono
+error_go_home: Poowrt na stronę główną
