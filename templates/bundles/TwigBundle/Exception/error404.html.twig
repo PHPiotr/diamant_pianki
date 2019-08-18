@@ -1,0 +1,16 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{ parent() }}{% trans %}error_not_found{% endtrans %}{% endblock %}
+
+{% block body %}
+    <section class="page-section bg-light" style="background-image: url({{ asset('img/bg-diamant-error.jpg') }});">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase text-danger">{% trans %}error_not_found{% endtrans %}</h2>
+                    <h3 class="text-danger"><a rel="nofollow" class="bg-success btn text-white" href="{{ path('uvod') }}">{% trans %}error_go_home{% endtrans %}</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

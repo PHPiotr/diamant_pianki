@@ -1,0 +1,7 @@
+{% block form_errors %}
+    {% apply spaceless %}
+        {% for error in errors %}
+            <p class="help-block text-danger">{{ error.message }}</p>
+        {% endfor %}
+    {% endapply %}
+{% endblock %}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>{% block title %}Diamant - {% endblock %}</title>
+    <meta charset="{{ _charset }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{% block description %}{% endblock %}">
+    <meta name="keywords" content="{% block keywords %}{% trans %}keywords{% endtrans %}{% endblock %}">
+    {% block stylesheets %}
+        <link href="{{ asset('img/favicon.ico') }}" rel="shortcut icon" type="image/vnd.microsoft.icon">
+        <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <link href="{{ asset('css/diamant.css') }}" rel="stylesheet">
+    {% endblock %}
+</head>
+<body id="page-top">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-shrink fixed-top" id="mainNav">
+    <div class="container">
+        {% if app.request.locale in ['cs', 'pl'] %}
+            <div id="flag" class="text-right">
+                <a href="{% trans %}language_version_url{% endtrans %}" title="Diamant - {% trans %}language_version{% endtrans %}">
+                    <img src="{{ asset('img/'~app.request.locale~'.gif') }}" alt="Diamant - {% trans %}language_version{% endtrans %}" />
+                </a>
+            </div>
+        {% endif %}
+        <a class="navbar-brand js-scroll-trigger" href="{{ path('uvod') }}" title="Diamant – specialista na zateplování stříkanou pěnou / PUR izolace"><img src="{{ asset('img/diamant-logo.png') }}" alt="Diamant stříkaná pěnová izolace - logo" title="Diamant stříkaná pěnová izolace" />Diamant</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link{% if active == 'chytraPena' %} active{% endif %}" href="{{ path('chytraPena') }}" title="{% trans %}intelligent_foam_title{% endtrans %}">{% trans %}intelligent_foam{% endtrans %}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if active == 'zatepleniDomu' %} active{% endif %}" href="{{ path('zatepleniDomu') }}" title="{% trans %}house_insulation_title{% endtrans %}">{% trans %}house_insulation{% endtrans %}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if active == 'strikanaIzolace' %} active{% endif %}" href="{{ path('strikanaIzolace') }}" title="{% trans %}spray_insulation_title{% endtrans %}">{% trans %}spray_insulation{% endtrans %}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if active == 'graco' %} active{% endif %}" href="{{ path('graco') }}" title="{% trans %}graco_title{% endtrans %}">{% trans %}graco{% endtrans %}<sup>&reg;</sup></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if active == 'kontakt' %} active{% endif %}" href="{{ path('kontakt') }}" title="{% trans %}contact_title{% endtrans %}">{% trans %}contact{% endtrans %}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="{% trans %}gypsum_plasters_url{% endtrans %}" title="{% trans %}gypsum_plasters_title{% endtrans %}">{% trans %}gypsum_plasters{% endtrans %}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+{% block body %}{% endblock %}
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <p class="large text-muted">
+                    {% trans %}footer_text{% endtrans %}:<br />
+                    <strong>{% trans %}footer_city_1{% endtrans %}</strong>, <strong>{% trans %}footer_city_2{% endtrans %}</strong>, <strong>{% trans %}footer_city_3{% endtrans %}</strong>, <strong>{% trans %}footer_city_4{% endtrans %}</strong>, <strong>{% trans %}footer_city_5{% endtrans %}</strong> {% trans %}footer_and_more{% endtrans %}.
+                </p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; Diamant {{ "now"|date("Y") }}</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li class="list-item">
+                        <h4>Diamant</h4>
+                    </li>
+                    <li class="list-item">
+                        <address>{{ diamant_name }}<br>{{ diamant_email }}<br>NIP: {{ diamant_nip }}</address>
+                    </li>
+                    <li class="list-item">
+                        <address>{{ diamant_zip_code }} {{ diamant_city }}<br>{{ diamant_street }}<br>{{ diamant_country }}</address>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                    <li class="list-inline-item">
+                        <a href="{{ path('mapaStranek') }}">{% trans %}sitemap{% endtrans %}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+{% block javascripts %}
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
+{% endblock %}
+</body>
+</html>

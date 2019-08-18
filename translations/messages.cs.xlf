@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="pl" target-language="cs" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="gqNTf.D" resname="name">
+        <source>name</source>
+        <target>Jméno *</target>
+      </trans-unit>
+      <trans-unit id="giREF.l" resname="email">
+        <source>email</source>
+        <target>Email *</target>
+      </trans-unit>
+      <trans-unit id="RVadpX9" resname="phone">
+        <source>phone</source>
+        <target>Telefon *</target>
+      </trans-unit>
+      <trans-unit id="q1MKE_R" resname="message">
+        <source>message</source>
+        <target>Zpráva *</target>
+      </trans-unit>
+      <trans-unit id="J84dG.Q" resname="send">
+        <source>send</source>
+        <target>Odeslat</target>
+      </trans-unit>
+      <trans-unit id="Z94NEID" resname="keywords">
+        <source>keywords</source>
+        <target>Ostrava, Karviná, Opava, Olomouc, Brno,</target>
+      </trans-unit>
+      <trans-unit id="sCvWYZZ" resname="language_version">
+        <source>language_version</source>
+        <target>polská jazyková verze</target>
+      </trans-unit>
+      <trans-unit id="7gbMe3Q" resname="language_version_url">
+        <source>language_version_url</source>
+        <target>https://izolacjenatryskowediamant.pl</target>
+      </trans-unit>
+      <trans-unit id="_T33FiX" resname="intelligent_foam">
+        <source>intelligent_foam</source>
+        <target>Chytrá pěna</target>
+      </trans-unit>
+      <trans-unit id="KQ3fdQZ" resname="intelligent_foam_title">
+        <source>intelligent_foam_title</source>
+        <target>O nás, pěnová izolace, zateplení střechy, zateplení domu, izolace chaty</target>
+      </trans-unit>
+      <trans-unit id="DOqCZpt" resname="intelligent_foam_heading">
+        <source>intelligent_foam_heading</source>
+        <target><![CDATA[<strong>Stříkaná pěnová izolace</strong> známá pod názvy <strong>PUR pěna</strong>, <strong>stříkaná izolace</strong>, <strong>stříkaná pěna</strong>, <strong>pěnová izolace</strong>]]></target>
+      </trans-unit>
+      <trans-unit id="AmmW1H3" resname="intelligent_foam_subheading_1">
+        <source>intelligent_foam_subheading_1</source>
+        <target>Rodinný dům zateplíme už za 1 den</target>
+      </trans-unit>
+      <trans-unit id="4pwLNlh" resname="intelligent_foam_text_1">
+        <source>intelligent_foam_text_1</source>
+        <target><![CDATA[<strong>Správně izolovaný a těsný dům</strong> si během zimních měsíců uchovává teplo a v létě pak chládek, protože v zimě brání úniku teplého vzduchu a v létě naopak vnikání teplého vzduchu. <strong>Stříkaná izolace</strong> je díky svým vlastnostem vhodná pro <strong>kompletní zateplení obytných domů</strong>. Stříkanou izolaci můžeme aplikovat kdekoliv v domě - podkroví, střecha, stěny, stropy, podlaha, fasáda, základy.]]></target>
+      </trans-unit>
+      <trans-unit id="pRnrE3i" resname="intelligent_foam_subheading_2">
+        <source>intelligent_foam_subheading_2</source>
+        <target>Materiál v čase nemění své izolační vlastnosti</target>
+      </trans-unit>
+      <trans-unit id="upqYXS6" resname="intelligent_foam_text_2">
+        <source>intelligent_foam_text_2</source>
+        <target><![CDATA[<strong>Stříkaná izolační pěna</strong> - po její aplikaci nevznikají žádné netěsnosti a tepelné mosty, ale díky jejím izolačním schopnostem lze <strong>reálně snížit náklady na vytápění až o 50%</strong>. Nejvíce žádaná <strong>tepelná izolace</strong> současné doby, jedná se o <strong>zateplení nové generace</strong> - bezvadně přilne ke všem materiálům. Plánujete kvalitně, účinně a moderně zateplit Vaši nemovitost? <strong>Polyuretanová stříkané izolace</strong> spoří náklady i čas.]]></target>
+      </trans-unit>
+      <trans-unit id="zDzUTvs" resname="intelligent_foam_subheading_3">
+        <source>intelligent_foam_subheading_3</source>
+        <target>Nejkvalitnější a nejúčinější tepelná izolace</target>
+      </trans-unit>
+      <trans-unit id="_Noknnw" resname="intelligent_foam_text_3">
+        <source>intelligent_foam_text_3</source>
+        <target><![CDATA[Používáme pěnu předního výrobce, kterou profesionálně aplikujeme za dodržení všech standardů kvality. Výhody pěnové izolace znamenají <strong>snížení energetické spotřeby</strong>, které má za následek výraznou úsporu finanční. <strong>Stříkaná pěnová izolace</strong> je v současnosti materiál s nejlepšími izolačními vlastnostmi.]]></target>
+      </trans-unit>
+      <trans-unit id="ijx8TrP" resname="house_insulation">
+        <source>house_insulation</source>
+        <target>Zateplení domu</target>
+      </trans-unit>
+      <trans-unit id="bgHR08s" resname="house_insulation_title">
+        <source>house_insulation_title</source>
+        <target>Zateplení domu, zateplení půdy, zateplení střechy, zateplení podkroví</target>
+      </trans-unit>
+      <trans-unit id="ZYpD6br" resname="house_insulation_description">
+        <source>house_insulation_description</source>
+        <target>Zabezpečení objektu proti tepelným ztrátám a nastolení správné vnitřní teploty v letním a zimním období.</target>
+      </trans-unit>
+      <trans-unit id="beotSsz" resname="house_insulation_keywords">
+        <source>house_insulation_keywords</source>
+        <target>zateplení podkroví, izolace stěny, izolace střechy, zateplení domu, zateplení, izolace,</target>
+      </trans-unit>
+      <trans-unit id="4BR4Kzu" resname="house_insulation_heading">
+        <source>house_insulation_heading</source>
+        <target>Zabezpečení objektu proti tepelným ztrátám a nastolení správné vnitřní teploty v letním a zimním období.</target>
+      </trans-unit>
+      <trans-unit id="kPVJxXa" resname="house_insulation_attic_title">
+        <source>house_insulation_attic_title</source>
+        <target>Zateplení domu - podkroví</target>
+      </trans-unit>
+      <trans-unit id="Wlrly25" resname="house_insulation_attic_alt">
+        <source>house_insulation_attic_alt</source>
+        <target>Zateplení podkroví</target>
+      </trans-unit>
+      <trans-unit id="J0ay5EQ" resname="house_insulation_attic_description">
+        <source>house_insulation_attic_description</source>
+        <target>Moderní, rychlé, ekonomické a ekologické zateplení v zimě hřeje a v létě chladí.</target>
+      </trans-unit>
+      <trans-unit id="j1_UjMV" resname="house_insulation_attic_keywords">
+        <source>house_insulation_attic_keywords</source>
+        <target>moderní zateplení, rychlé zateplení, ekonomické zateplení, ekologické zateplení, podkroví, zateplení podkroví, pěnová izolace do podkroví,</target>
+      </trans-unit>
+      <trans-unit id="D1u6gRS" resname="house_insulation_attic_text_1">
+        <source>house_insulation_attic_text_1</source>
+        <target>Zateplení podkroví je nejdůležitější z celé konstrukce domu</target>
+      </trans-unit>
+      <trans-unit id="ubBu.Sq" resname="house_insulation_attic_text_2">
+        <source>house_insulation_attic_text_2</source>
+        <target>Moderní, rychlé, ekonomické a ekologické zateplení vašeho podkroví. Dokonalá izolace všech prostupů a spár. Naše pěnová izolace do podkroví v zimě hřeje a v létě chladí.</target>
+      </trans-unit>
+      <trans-unit id="MxQKHt3" resname="house_insulation_attic_heading">
+        <source>house_insulation_attic_heading</source>
+        <target>Podkroví</target>
+      </trans-unit>
+      <trans-unit id="eJCjU3I" resname="house_insulation_attic_subheading">
+        <source>house_insulation_attic_subheading</source>
+        <target>Zateplení podkroví je nejdůležitější z celé konstrukce domu.</target>
+      </trans-unit>
+      <trans-unit id="TW9O_N3" resname="house_insulation_walls_title">
+        <source>house_insulation_walls_title</source>
+        <target>Zateplení domu - stěny</target>
+      </trans-unit>
+      <trans-unit id="mmQmcgu" resname="house_insulation_walls_alt">
+        <source>house_insulation_walls_alt</source>
+        <target>Izolace stěny a stropu</target>
+      </trans-unit>
+      <trans-unit id="4h7XFTn" resname="house_insulation_walls_description">
+        <source>house_insulation_walls_description</source>
+        <target>Pro izolace stěny a stropu lze použít jak měkkou, tak tvrdou pěnu.</target>
+      </trans-unit>
+      <trans-unit id="yrRHbzA" resname="house_insulation_walls_keywords">
+        <source>house_insulation_walls_keywords</source>
+        <target>izolace, stěny, strop, zateplení, zateplení domu, tvrdá pěna, měkká pěna,</target>
+      </trans-unit>
+      <trans-unit id="oTZMZ2r" resname="house_insulation_walls_text_1">
+        <source>house_insulation_walls_text_1</source>
+        <target>Pro izolace stěny a stropu lze použít jak měkkou, tak tvrdou pěnu</target>
+      </trans-unit>
+      <trans-unit id="hxPApgB" resname="house_insulation_walls_text_2">
+        <source>house_insulation_walls_text_2</source>
+        <target>Měkkou pěnu používáme v místech, kde může být skrytá a příliš nezatěžovaná. Tvrdá pěna úspěšně předchází vlhkosti stěn a vytváření plísní.</target>
+      </trans-unit>
+      <trans-unit id="LidcjpK" resname="house_insulation_walls_heading">
+        <source>house_insulation_walls_heading</source>
+        <target>Stěny</target>
+      </trans-unit>
+      <trans-unit id="FmUrfdK" resname="house_insulation_walls_subheading">
+        <source>house_insulation_walls_subheading</source>
+        <target>Izolace stěny lze použít jak měkkou, tak tvrdou pěnu.</target>
+      </trans-unit>
+      <trans-unit id="Syfqe5C" resname="house_insulation_roof_title">
+        <source>house_insulation_roof_title</source>
+        <target>Zateplení domu - střechy</target>
+      </trans-unit>
+      <trans-unit id="3XtVkLh" resname="house_insulation_roof_alt">
+        <source>house_insulation_roof_alt</source>
+        <target>Izolace střechy</target>
+      </trans-unit>
+      <trans-unit id="iat1xx1" resname="house_insulation_roof_description">
+        <source>house_insulation_roof_description</source>
+        <target>Stříkaná pěnová izolace na zateplení střechy.</target>
+      </trans-unit>
+      <trans-unit id="xrYFus9" resname="house_insulation_roof_keywords">
+        <source>house_insulation_roof_keywords</source>
+        <target>izolace, střechy, izolace střechy, zateplení, zateplení střechy, Stříkaná pěnová izolace,</target>
+      </trans-unit>
+      <trans-unit id="x8FdFFT" resname="house_insulation_roof_text_1">
+        <source>house_insulation_roof_text_1</source>
+        <target>Stříkaná pěnová izolace na zateplení střechy</target>
+      </trans-unit>
+      <trans-unit id="rmqKgqc" resname="house_insulation_roof_text_2">
+        <source>house_insulation_roof_text_2</source>
+        <target>Tato aplikace se využívá především u stávajících objektů, kde není možné zasahovat do hotového podkroví. Velmi často tak řešíme náhradu již nefunkční izolace z minerální vaty</target>
+      </trans-unit>
+      <trans-unit id="CHOsuaD" resname="house_insulation_roof_heading">
+        <source>house_insulation_roof_heading</source>
+        <target>Střechy</target>
+      </trans-unit>
+      <trans-unit id="4LQjS7N" resname="house_insulation_roof_subheading">
+        <source>house_insulation_roof_subheading</source>
+        <target>Izolace střechy zabráníte únikům tepla v zimě, omezíte prostup tepla v létě.</target>
+      </trans-unit>
+      <trans-unit id="n9zNlOs" resname="spray_insulation">
+        <source>spray_insulation</source>
+        <target>Stříkaná izolace</target>
+      </trans-unit>
+      <trans-unit id="nFKiG7m" resname="spray_insulation_description">
+        <source>spray_insulation_description</source>
+        <target>Tepelná stříkaná pěnová multifunkční izolace nové generace.</target>
+      </trans-unit>
+      <trans-unit id="Ev1iT0g" resname="spray_insulation_keywords">
+        <source>spray_insulation_keywords</source>
+        <target>stříkaná, izolace, stříkaná izolace, tepelná, pěnová, zateplení, PUR,</target>
+      </trans-unit>
+      <trans-unit id="7Ga3.2d" resname="spray_insulation_heading">
+        <source>spray_insulation_heading</source>
+        <target>Tepelná stříkaná pěnová izolace</target>
+      </trans-unit>
+      <trans-unit id="SeuD7K." resname="spray_insulation_subheading">
+        <source>spray_insulation_subheading</source>
+        <target>Provádíme zateplování domů stříkanou pěnou.</target>
+      </trans-unit>
+      <trans-unit id="uIxnjX3" resname="spray_insulation_heading_1">
+        <source>spray_insulation_heading_1</source>
+        <target>Rychlé a kvalitní zateplení</target>
+      </trans-unit>
+      <trans-unit id="ZIoaLO_" resname="spray_insulation_subheading_1">
+        <source>spray_insulation_subheading_1</source>
+        <target>Řešením je stříkaná izolace PUR pěnou považována za nejlepší izolaci vůbec.</target>
+      </trans-unit>
+      <trans-unit id="4OivXuc" resname="spray_insulation_heading_2">
+        <source>spray_insulation_heading_2</source>
+        <target>Rychlá návratnost investic</target>
+      </trans-unit>
+      <trans-unit id="ktzBlnd" resname="spray_insulation_subheading_2">
+        <source>spray_insulation_subheading_2</source>
+        <target>Stříkaná pěnová izolace zachovává neměnné parametry po celou dobu životnosti stavby</target>
+      </trans-unit>
+      <trans-unit id="l5kYFei" resname="spray_insulation_heading_3">
+        <source>spray_insulation_heading_3</source>
+        <target>Multifunkční izolace pro váš dům</target>
+      </trans-unit>
+      <trans-unit id="fL.ZfcB" resname="spray_insulation_subheading_3">
+        <source>spray_insulation_subheading_3</source>
+        <target>Jedná se o zateplení nové generace, která bezvadně přilne ke všem materiálům.</target>
+      </trans-unit>
+      <trans-unit id="9SXpfBr" resname="spray_insulation_title">
+        <source>spray_insulation_title</source>
+        <target>Stříkaná izolace, pěnová izolace, izolace pěnou, zateplení pěnou, zateplení pur pěnou</target>
+      </trans-unit>
+      <trans-unit id="ZNQNALY" resname="graco">
+        <source>graco</source>
+        <target>Graco</target>
+      </trans-unit>
+      <trans-unit id="PuLHMPQ" resname="graco_title">
+        <source>graco_title</source>
+        <target>Používáme zařízení Graco</target>
+      </trans-unit>
+      <trans-unit id="YWdH5I8" resname="graco_description">
+        <source>graco_description</source>
+        <target>Používáme zařízení Graco pro nástřik pěnové izolace v obytných a komerčních budovách.</target>
+      </trans-unit>
+      <trans-unit id="JeL9ZB9" resname="graco_keywords">
+        <source>graco_keywords</source>
+        <target>Graco, graco, zařízení Graco, polyuretanové izolace, polyuretanové, izolace, izolace nástřikem,</target>
+      </trans-unit>
+      <trans-unit id="uchRl52" resname="graco_subheading">
+        <source>graco_subheading</source>
+        <target>Pěnové polyuretanové izolace nástřikem</target>
+      </trans-unit>
+      <trans-unit id="BcGjA_6" resname="graco_text_1">
+        <source>graco_text_1</source>
+        <target>Stříkací pistole pro aplikaci pěnové polyuretanové izolace nástřikem</target>
+      </trans-unit>
+      <trans-unit id="Ax9Af1a" resname="graco_text_2">
+        <source>graco_text_2</source>
+        <target>Zařízení pro nástřik pěnové izolace v obytných a komerčních budovách</target>
+      </trans-unit>
+      <trans-unit id="1lz_DmM" resname="graco_text_3">
+        <source>graco_text_3</source>
+        <target>Dálkově ovládané pěnové a polymočovinové reaktory</target>
+      </trans-unit>
+      <trans-unit id="CT59X9u" resname="contact">
+        <source>contact</source>
+        <target>Kontakt</target>
+      </trans-unit>
+      <trans-unit id="8EbIby1" resname="contact_title">
+        <source>contact_title</source>
+        <target>Nezávazná poptávka stříkané izolace, zateplení</target>
+      </trans-unit>
+      <trans-unit id="8XTo92I" resname="contact_description">
+        <source>contact_description</source>
+        <target>Neváhejte a kontaktujte nás!</target>
+      </trans-unit>
+      <trans-unit id="qsTlgvY" resname="contact_keywords">
+        <source>contact_keywords</source>
+        <target>kontakt, telefon, email, diamant,</target>
+      </trans-unit>
+      <trans-unit id="y1HQweq" resname="contact_email_title">
+        <source>contact_email_title</source>
+        <target>Diamant Izolační Pěny</target>
+      </trans-unit>
+      <trans-unit id="QB4pldC" resname="contact_email_success">
+        <source>contact_email_success</source>
+        <target>Tvoje zpráva byla úspěšně odeslána. Brzy vás budeme kontaktovat.</target>
+      </trans-unit>
+      <trans-unit id="3C96OEr" resname="gypsum_plasters">
+        <source>gypsum_plasters</source>
+        <target>Sádrové omítky</target>
+      </trans-unit>
+      <trans-unit id="4NAYdIN" resname="gypsum_plasters_title">
+        <source>gypsum_plasters_title</source>
+        <target>Diamant sádrové omítky Ostrava, Karviná, Opava, Olomouc, Brno</target>
+      </trans-unit>
+      <trans-unit id="O4wMhzX" resname="gypsum_plasters_url">
+        <source>gypsum_plasters_url</source>
+        <target>https://sadroveomitkydiamant.cz</target>
+      </trans-unit>
+      <trans-unit id="AsGyRlu" resname="footer_text">
+        <source>footer_text</source>
+        <target>Rychlé a kvalitní zateplení pro vás realizujeme v následujících městech</target>
+      </trans-unit>
+      <trans-unit id="O8ZehCg" resname="footer_city_1">
+        <source>footer_city_1</source>
+        <target>Ostrava</target>
+      </trans-unit>
+      <trans-unit id="OiSJc_z" resname="footer_city_2">
+        <source>footer_city_2</source>
+        <target>Karviná</target>
+      </trans-unit>
+      <trans-unit id="IQ2Bd.z" resname="footer_city_3">
+        <source>footer_city_3</source>
+        <target>Opava</target>
+      </trans-unit>
+      <trans-unit id="2cgnr89" resname="footer_city_4">
+        <source>footer_city_4</source>
+        <target>Olomouc</target>
+      </trans-unit>
+      <trans-unit id="o9IXRrp" resname="footer_city_5">
+        <source>footer_city_5</source>
+        <target>Brno</target>
+      </trans-unit>
+      <trans-unit id="iBbfc9n" resname="footer_and_more">
+        <source>footer_and_more</source>
+        <target>a další</target>
+      </trans-unit>
+      <trans-unit id="aw0cVYy" resname="sitemap">
+        <source>sitemap</source>
+        <target>Mapa stránek</target>
+      </trans-unit>
+      <trans-unit id="odC.DS4" resname="uvod_title">
+        <source>uvod_title</source>
+        <target>Stříkané izolační pěny</target>
+      </trans-unit>
+      <trans-unit id="1IMTgbl" resname="uvod_description">
+        <source>uvod_description</source>
+        <target>Provádíme zateplování stříkanou pěnou. Pěnová izolace pro zateplení domu za jediný den.</target>
+      </trans-unit>
+      <trans-unit id="DiEFPKV" resname="uvod_keywords">
+        <source>uvod_keywords</source>
+        <target>zateplování, zateplování domu, izolace, pěnová izolace, izolační pěny, stříkané izolační pěny, stříkané pěny,</target>
+      </trans-unit>
+      <trans-unit id="45dGpVr" resname="uvod_intro_1">
+        <source>uvod_intro_1</source>
+        <target><![CDATA[Jsme&nbsp;aplikátor stříkané&nbsp;izolační&nbsp;pěny]]></target>
+      </trans-unit>
+      <trans-unit id="08BOiWL" resname="uvod_intro_2">
+        <source>uvod_intro_2</source>
+        <target><![CDATA[Proč izolovat s&nbsp;námi?]]></target>
+      </trans-unit>
+      <trans-unit id="1wFlvX6" resname="uvod_more_info">
+        <source>uvod_more_info</source>
+        <target>Více informací</target>
+      </trans-unit>
+      <trans-unit id="iDHSIr0" resname="uvod_text_1">
+        <source>uvod_text_1</source>
+        <target>Pěnová izolace pro zateplení domu</target>
+      </trans-unit>
+      <trans-unit id="J3C6DMw" resname="uvod_price">
+        <source>uvod_price</source>
+        <target>400Kč</target>
+      </trans-unit>
+      <trans-unit id="vPdTMfJ" resname="uvod_text_2">
+        <source>uvod_text_2</source>
+        <target>Rychlost aplikace do Vašeho interiéru - za jediný den.</target>
+      </trans-unit>
+      <trans-unit id="_HE9JlF" resname="uvod_text_3">
+        <source>uvod_text_3</source>
+        <target>Nulové tepelné ztráty - chladivé klima v létě, útulné teplo v zimě</target>
+      </trans-unit>
+      <trans-unit id="SkUjbRD" resname="uvod_text_4">
+        <source>uvod_text_4</source>
+        <target>Nezávadnost - nežádoucí vlhkost, zima nebo plísně nepronikají do domu</target>
+      </trans-unit>
+      <trans-unit id="ytdwsF9" resname="uvod_text_5">
+        <source>uvod_text_5</source>
+        <target>Vysoký standard - naše materiály testujeme a podrobujeme různým zkouškám</target>
+      </trans-unit>
+      <trans-unit id="o6BcDMq" resname="error_not_found">
+        <source>error_not_found</source>
+        <target>Stránka nenalezena</target>
+      </trans-unit>
+      <trans-unit id="ScPRVX8" resname="error_go_home">
+        <source>error_go_home</source>
+        <target>Návrat na domovskou stránku</target>
+      </trans-unit>
+      <trans-unit id="U6NQhq1" resname="Jméno *">
+        <source>Jméno *</source>
+        <target>Jméno *</target>
+      </trans-unit>
+      <trans-unit id="1lLVFeu" resname="Email *">
+        <source>Email *</source>
+        <target>Email *</target>
+      </trans-unit>
+      <trans-unit id="TJq4sGW" resname="Telefon *">
+        <source>Telefon *</source>
+        <target>Telefon *</target>
+      </trans-unit>
+      <trans-unit id="UPdJLR6" resname="Zpráva *">
+        <source>Zpráva *</source>
+        <target>Zpráva *</target>
+      </trans-unit>
+      <trans-unit id="qmmhj7g" resname="Odeslat">
+        <source>Odeslat</source>
+        <target>Odeslat</target>
+      </trans-unit>
+      <trans-unit id="X8BXLEs" resname="polská jazyková verze">
+        <source>polská jazyková verze</source>
+        <target>polská jazyková verze</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,59 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{parent()}}{% trans %}graco_title{% endtrans %}{% endblock %}
+{% block description %}{{ parent() }}{% trans %}graco_description{% endtrans %}{% endblock %}
+{% block keywords %}{{ parent() }}{% trans %}graco_keywords{% endtrans %}{% endblock %}
+
+{% block body %}
+    <section class="page-section bg-light" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">{% trans %}graco_title{% endtrans %}<sup>&reg;</sup></h2>
+                    <h3 class="section-subheading text-muted">{% trans %}graco_subheading{% endtrans %}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="{{ asset('img/graco-logo.jpg') }}" alt="{% trans %}graco_title{% endtrans %}">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="{{ asset('img/graco-1.jpg') }}" alt="{% trans %}graco_text_1{% endtrans %}">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading text-warning">{% trans %}graco_text_1{% endtrans %}</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="{{ asset('img/graco-2.jpg') }}" alt="{% trans %}graco_text_2{% endtrans %}">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="text-danger subheading">{% trans %}graco_text_2{% endtrans %}</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="{{ asset('img/graco-3.jpg') }}" alt="{% trans %}graco_text_3{% endtrans %}">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="text-success subheading">{% trans %}graco_text_3{% endtrans %}</h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

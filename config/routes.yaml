@@ -1,3 +1,44 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+uvod:
+    path: /
+    controller: App\Controller\DiamantController::uvod
+chytraPena:
+    path:
+        cs: /chytra-pena
+        pl: /inteligentna-pianka
+    controller: App\Controller\DiamantController::chytraPena
+zatepleniDomu:
+    path:
+        cs: /zatepleni-domu
+        pl: /ocieplanie-domu
+    controller: App\Controller\DiamantController::zatepleniDomu
+zatepleniDomuPodkrovi:
+    path:
+        cs: /zatepleni-domu/podkrovi
+        pl: /ocieplanie-domu/poddasze
+    controller: App\Controller\DiamantController::zatepleniDomuPodkrovi
+zatepleniDomuSteny:
+    path:
+        cs: /zatepleni-domu/steny
+        pl: /ocieplanie-domu/sciany
+    controller: App\Controller\DiamantController::zatepleniDomuSteny
+zatepleniDomuStrechy:
+    path:
+        cs: /zatepleni-domu/strechy
+        pl: /ocieplanie-domu/dach
+    controller: App\Controller\DiamantController::zatepleniDomuStrechy
+strikanaIzolace:
+    path:
+        cs: /strikana-izolace
+        pl: /izoolacja-natryskowa
+    controller: App\Controller\DiamantController::strikanaIzolace
+graco:
+    path: /graco
+    controller: App\Controller\DiamantController::graco
+kontakt:
+    path: /kontakt
+    controller: App\Controller\DiamantController::kontakt
+mapaStranek:
+    path:
+        cs: /mapa-stranek
+        pl: /mapa-strony
+    controller: App\Controller\DiamantController::mapaStranek

@@ -2,3 +2,12 @@ twig:
     default_path: '%kernel.project_dir%/templates'
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
+    form_themes: ['bootstrap_4_layout.html.twig', 'form/form_errors.html.twig']
+    globals:
+        diamant_name: '%env(DIAMANT_NAME)%'
+        diamant_email: '%env(DIAMANT_EMAIL)%'
+        diamant_nip: '%env(DIAMANT_NIP)%'
+        diamant_zip_code: '%env(DIAMANT_ZIP_CODE)%'
+        diamant_city: '%env(DIAMANT_CITY)%'
+        diamant_street: '%env(DIAMANT_STREET)%'
+        diamant_country: '%env(DIAMANT_COUNTRY)%'

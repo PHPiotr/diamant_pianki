@@ -1,0 +1,10 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{parent()}}{% trans %}house_insulation{% endtrans %}{% endblock %}
+{% block description %}{{ parent() }}{% trans %}house_insulation_description{% endtrans %}{% endblock %}
+{% block keywords %}{{ parent() }}{% trans %}house_insulation_keywords{% endtrans %}{% endblock %}
+
+
+{% block body %}
+    {{ include('zatepleni.html.twig') }}
+{% endblock %}
