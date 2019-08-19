@@ -114,7 +114,7 @@ class DiamantController extends AbstractController
 
             $message = (new Swift_Message($translator->trans('contact_email_title')))
                 ->setFrom($data['email'])
-                ->setTo($this->getParameter('diamant_email'))
+                ->setTo($this->getParameter('mailer_to'))
                 ->setBody($this->renderView('email/contact.html.twig', $data))
             ;
             $sent = $mailer->send($message);
