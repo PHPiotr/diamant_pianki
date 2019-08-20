@@ -83,6 +83,7 @@ contact_description: Neváhejte a kontaktujte nás!
 contact_keywords: kontakt, telefon, email, diamant,
 contact_email_title: Diamant Izolační Pěny
 contact_email_success: Tvoje zpráva byla úspěšně odeslána. Brzy vás budeme kontaktovat.
+contact_email_failure: Něco se pokazilo. Zpráva nebyla odeslána.
 gypsum_plasters: Sádrové omítky
 gypsum_plasters_title: Diamant sádrové omítky Ostrava, Karviná, Opava, Olomouc, Brno
 gypsum_plasters_url: https://sadroveomitkydiamant.cz

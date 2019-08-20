@@ -84,6 +84,7 @@ contact_description: Skontaktuj się z nami!
 contact_keywords: kontakt, telefon, email, diamant,
 contact_email_title: Diamant Piany Izolacyjne
 contact_email_success: Twoja wiadomość została wysłana pomyślnie. Skontaktujemy się z Tobą wkrótce.
+contact_email_failure: Cos poszło nie tak. Wiadomość nie została wysłana.
 gypsum_plasters: Tynki gipsowe
 gypsum_plasters_title: Diamant tynki gipsowe Wodzisław Śląski, Rybnik, Pszów, Jastrzębie Zdrój, Rydułtowy, śląskie
 gypsum_plasters_url: https://www.tynkigipsowediamant.pl

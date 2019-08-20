@@ -111,13 +111,21 @@ class DiamantController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
 
             $data = $form->getData();
-
-            $message = (new Swift_Message($translator->trans('contact_email_title')))
-                ->setFrom($data['email'])
-                ->setTo($this->getParameter('mailer_to'))
-                ->setBody($this->renderView('email/contact.html.twig', $data))
-            ;
-            $sent = $mailer->send($message);
+            $message = $this->renderView('email/contact.html.twig', [
+                'data' => $data,
+            ]);
+            $to = $this->getParameter('mailer_to');
+            $subject = $translator->trans('contact_email_title');
+            $emailFrom = $data['email'];
+            $headers[] = sprintf('From: %s', $emailFrom);
+            $headers[] = sprintf('Reply-To: %s', $emailFrom);
+            $headers[] = 'MIME-Version: 1.0';
+            $headers[] = 'Content-Type: text/html; charset=UTF-8';
+            $sent = mail($to, $subject, $message, implode("\r\n", $headers), '-f ' . $emailFrom);
+            if (!$sent) {
+                $this->addFlash('danger', $translator->trans('contact_email_failure'));
+                return ['form' => $form->createView()];
+            }
 
             $this->addFlash(
                 'success',
