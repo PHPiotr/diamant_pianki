@@ -121,15 +121,11 @@ class DiamantController extends AbstractController
             $headers[] = 'MIME-Version: 1.0';
             $headers[] = 'Content-Type: text/html; charset=UTF-8';
             $sent = mail($to, $subject, $message, implode("\r\n", $headers), '-f ' . $emailFrom);
-            if (!$sent) {
+            if ($sent) {
+                $this->addFlash('success', $translator->trans('contact_email_success'));
+            } else {
                 $this->addFlash('danger', $translator->trans('contact_email_failure'));
-                return ['form' => $form->createView()];
             }
-
-            $this->addFlash(
-                'success',
-                $translator->trans('contact_email_success')
-            );
 
             return $this->redirectToRoute('kontakt');
         }
