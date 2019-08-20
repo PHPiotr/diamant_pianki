@@ -111,9 +111,8 @@ class DiamantController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
 
             $data = $form->getData();
-            $message = $this->renderView('email/contact.html.twig', [
-                'data' => $data,
-            ]);
+
+            $message = $this->renderView('email/contact.html.twig', $data);
             $to = $this->getParameter('mailer_to');
             $subject = $translator->trans('contact_email_title');
             $emailFrom = $data['email'];
