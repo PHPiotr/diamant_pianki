@@ -42,3 +42,6 @@ mapaStranek:
         cs: /mapa-stranek
         pl: /mapa-strony
     controller: App\Controller\DiamantController::mapaStranek
+sitemap:
+    path: /sitemap.txt
+    controller: App\Controller\DiamantController::sitemap

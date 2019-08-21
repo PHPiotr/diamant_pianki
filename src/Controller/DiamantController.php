@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use Swift_Message;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Validator\Constraints\Email;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
@@ -142,5 +143,13 @@ class DiamantController extends AbstractController
         return $this->render('mapa-stranek.html.twig', [
             'active' => 'mapaStranek',
         ]);
+    }
+
+    public function sitemap(Request $request)
+    {
+        $content = $this->renderView("sitemap/{$request->getLocale()}/sitemap.txt.twig");
+        $textResponse = new Response($content , 200);
+        $textResponse->headers->set('Content-Type', 'text/plain');
+        return $textResponse;
     }
 }
