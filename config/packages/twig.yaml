@@ -11,3 +11,4 @@ twig:
         diamant_city: '%env(DIAMANT_CITY)%'
         diamant_street: '%env(DIAMANT_STREET)%'
         diamant_country: '%env(DIAMANT_COUNTRY)%'
+        ga_code: '%env(default::GA_CODE)%'
