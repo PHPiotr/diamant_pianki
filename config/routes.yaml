@@ -45,3 +45,6 @@ mapaStranek:
 sitemap:
     path: /sitemap.txt
     controller: App\Controller\DiamantController::sitemap
+google_analytics:
+    path: /google_analytics
+    controller: App\Controller\GoogleController::getAccessToken
