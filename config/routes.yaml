@@ -29,7 +29,7 @@ zatepleniDomuStrechy:
 strikanaIzolace:
     path:
         cs: /strikana-izolace
-        pl: /izoolacja-natryskowa
+        pl: /izolacja-natryskowa
     controller: App\Controller\DiamantController::strikanaIzolace
 graco:
     path: /graco
@@ -42,3 +42,9 @@ mapaStranek:
         cs: /mapa-stranek
         pl: /mapa-strony
     controller: App\Controller\DiamantController::mapaStranek
+sitemap:
+    path: /sitemap.txt
+    controller: App\Controller\DiamantController::sitemap
+google_analytics:
+    path: /google_analytics
+    controller: App\Controller\GoogleController::getAccessToken

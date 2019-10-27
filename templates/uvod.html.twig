@@ -77,8 +77,10 @@
 
         </div>
     </section>
+    {% include 'analytics_charts_view.html.twig' %}
 {% endblock %}
 {% block javascripts %}
     {{ parent() }}
+    {% include 'analytics_charts_script.html.twig' %}
     <script src="{{ asset('js/diamant.js') }}"></script>
 {% endblock %}

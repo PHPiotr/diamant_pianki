@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use Swift_Message;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Validator\Constraints\Email;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
@@ -112,17 +113,20 @@ class DiamantController extends AbstractController
 
             $data = $form->getData();
 
-            $message = (new Swift_Message($translator->trans('contact_email_title')))
-                ->setFrom($data['email'])
-                ->setTo($this->getParameter('diamant_email'))
-                ->setBody($this->renderView('email/contact.html.twig', $data))
-            ;
-            $sent = $mailer->send($message);
-
-            $this->addFlash(
-                'success',
-                $translator->trans('contact_email_success')
-            );
+            $message = $this->renderView('email/contact.html.twig', $data);
+            $to = $this->getParameter('mailer_to');
+            $subject = $translator->trans('contact_email_title');
+            $emailFrom = $data['email'];
+            $headers[] = sprintf('From: %s', $emailFrom);
+            $headers[] = sprintf('Reply-To: %s', $emailFrom);
+            $headers[] = 'MIME-Version: 1.0';
+            $headers[] = 'Content-Type: text/html; charset=UTF-8';
+            $sent = mail($to, $subject, $message, implode("\r\n", $headers), '-f ' . $emailFrom);
+            if ($sent) {
+                $this->addFlash('success', $translator->trans('contact_email_success'));
+            } else {
+                $this->addFlash('danger', $translator->trans('contact_email_failure'));
+            }
 
             return $this->redirectToRoute('kontakt');
         }
@@ -139,5 +143,13 @@ class DiamantController extends AbstractController
         return $this->render('mapa-stranek.html.twig', [
             'active' => 'mapaStranek',
         ]);
+    }
+
+    public function sitemap(Request $request)
+    {
+        $content = $this->renderView("sitemap/{$request->getLocale()}/sitemap.txt.twig");
+        $textResponse = new Response($content , 200);
+        $textResponse->headers->set('Content-Type', 'text/plain');
+        return $textResponse;
     }
 }

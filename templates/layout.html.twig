@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
+    {% if app.environment == 'prod' and ga_code != "" %}
+        {% include 'analytics.html.twig' %}
+    {% endif %}
     <title>{% block title %}Diamant - {% endblock %}</title>
     <meta charset="{{ _charset }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

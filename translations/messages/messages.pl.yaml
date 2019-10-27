@@ -1,11 +1,11 @@
 name: Imię *
 email: Email *
 phone: Telefon *
-message: Wiadmość *
+message: Wiadomość *
 send: Wyślij
 keywords: Wodzisław Śląski, Rybnik, Jastrzębie Zdrój, Radlin, Rydułtowy, Pszów, Chałupki, Czyżowice, Gorzyce, śląskie,
 language_version: czeska wersja językowa
-language_version_url: https://chytrezateplenidiamant.cz
+language_version_url: http://chytrezateplenidiamant.cz
 intelligent_foam: Inteligentna piana
 intelligent_foam_title: O nas, izolacja pianką, ocieplanie dachu, ocieplanie domu, izolacja domu
 intelligent_foam_heading: <strong>Natryskowa izolacja pianą</strong> znaną również jako <strong>PUR piana</strong>, <strong>piana pooliuretanowa</strong>, <strong>piana natryskwoa</strong>, <strong>piana izolacyjna</strong>
@@ -18,7 +18,7 @@ intelligent_foam_subheading_2: Materiał wraz z upływem czasu nie zmienia swoic
 intelligent_foam_text_2: <strong>Natryskowa piana izolacyjna</strong> - po jej zastosowaniu nie występują żadne wycieki ani mostki termiczne,
   a dzięki jej izolacyjnym własnościom <strong>można realnie obniżyć koszty ocieplenia domu aż o 50%</strong>.
   Najbardziej pożądany sposób <strong>izolacji termicznej</strong> wsółczesnej doby, forma <strong>ocieplenia nowej generacji</strong>
-  - nadaje sie doskonale do wszystkich materiałów. Planujesz ocieplić swoją nieruchomość w wysokiej jakości, wydajny i nowoczesny sposób?
+  - nadaje się doskonale do wszystkich materiałów. Planujesz ocieplić swoją nieruchomość w wysokiej jakości, wydajny i nowoczesny sposób?
   <strong>Poliuretanowa natryskowa izolacja</strong> sprawi, że zredukujesz koszty i zaszczędzisz czas.
 intelligent_foam_subheading_3: Najskuteczniejsza izolacja termiczna najwyższej jakości
 intelligent_foam_text_3: Używamy pianki wiodącego producenta, którą stosujemy profesjonalnie zgodnie ze wszystkimi standardami jakości.
@@ -44,7 +44,7 @@ house_insulation_walls_alt: Izolacja ścian i stropu
 house_insulation_walls_description: Do izolacji ścian i sufitów można stosować zarówno miękką, jak i twardą piankę.
 house_insulation_walls_keywords: izolacja, ściany, sufit, izolacja, izolacja domu, twarda pianka, miękka pianka,
 house_insulation_walls_text_1: Do izolacji ścian i sufitów można stosować zarówno miękką, jak i twardą piankę.
-house_insulation_walls_text_2: Pianę miękką (z otwartymi komórkami) wykorzystuję się do ocieplania poddaszy i ścian. Otrzymuje się również efekt znacznego wytłumienia hałasu, co jest istotne w przypadku ścianek działowych. Możemy ją stosować bezpośrednio na deski oraz na membranę.
+house_insulation_walls_text_2: Pianę miękką (z otwartymi komórkami) wykorzystuje się do ocieplania poddaszy i ścian. Otrzymuje się również efekt znacznego wytłumienia hałasu, co jest istotne w przypadku ścianek działowych. Możemy ją stosować bezpośrednio na deski oraz na membranę.
   Piana sztywna (z zamkniętymi komórkami) jest wodoodporna i nie przepuszcza pary wodnej. Może być stosowana w nowych, jak i już eksploatowanych miejscach. Służy do izolacji stropów, ścian i fundamentów.
   Zamiast ocieplać dom papą można go zabezpieczyć gęstą pianą sztywną.
 house_insulation_walls_heading: Ściany
@@ -65,7 +65,7 @@ spray_insulation_heading: Izolacja termiczna pianką natryskową
 spray_insulation_subheading: Prowadzimy izolację termiczną domów pianką metodą natryskową.
 spray_insulation_heading_1: Wysokiej jakości, szybka izolacja
 spray_insulation_subheading_1: Rozwiązaniem jest natryskowa izolacja pianką PUR, która jest uważana za najlepszy materiał izolacyjny w historii.
-spray_insulation_heading_2: Szybki zwrot z inwestycji
+spray_insulation_heading_2: Szybki zwrot inwestycji
 spray_insulation_subheading_2: Natryskowa izolacja piankowa utrzymuje stałe parametry przez cały okres użytkowania budynku
 spray_insulation_heading_3: Wielofunkcyjna izolacja Twojego domu
 spray_insulation_subheading_3: Jest to nowa generacja izolacji, która idealnie pasuje do wszystkich materiałów.
@@ -84,6 +84,7 @@ contact_description: Skontaktuj się z nami!
 contact_keywords: kontakt, telefon, email, diamant,
 contact_email_title: Diamant Piany Izolacyjne
 contact_email_success: Twoja wiadomość została wysłana pomyślnie. Skontaktujemy się z Tobą wkrótce.
+contact_email_failure: Cos poszło nie tak. Wiadomość nie została wysłana.
 gypsum_plasters: Tynki gipsowe
 gypsum_plasters_title: Diamant tynki gipsowe Wodzisław Śląski, Rybnik, Pszów, Jastrzębie Zdrój, Rydułtowy, śląskie
 gypsum_plasters_url: https://www.tynkigipsowediamant.pl
@@ -98,14 +99,14 @@ sitemap: Mapa strony
 uvod_title: Natryskowa pianka izolacyjna
 uvod_description: Prowadzimy ocieplanie metodą natryskową. Izolacja domu pianką PUR w ciągu jednego dnia.
 uvod_keywords: ocieplanie, ocieplanie domu, izolacja, izolacja pianką, pianka PUR, PUR, pur, pianka izolacyjna, izolacyjna pianka natryskowa, pianka natryskowa,
-uvod_intro_1: Wykjonujemy&nbsp;natryskowe izolacje PUR&nbsp;pianą.
-uvod_intro_2: Dlaczego&nbsp;wybrać nas?
+uvod_intro_1: Wykonujemy&nbsp;natryskowe izolacje PUR&nbsp;pianą.
+uvod_intro_2: Dlaczego wybrać nas?
 uvod_more_info: Więcej informacji
 uvod_text_1: Ocieplanie domu natryskowo izolacyjną pianą poliuretanową (PUR)
-uvod_price: 70zł
+uvod_price: Cena do negocjacji
 uvod_text_2: Szybkość wykonania izolacji domu - w ciągu jednego dnia
 uvod_text_3: Zero strat ciepła - chłodny klimat latem, przytulne ciepło zimą
 uvod_text_4: Bezpieczeństwo - niechciana wilgoć, zimno, pleśń nie przenikają do domu
 uvod_text_5: Wysoki standard - używamy materiałów i narzędzi najwyższej jakości
 error_not_found: Strony nie dnaleziono
-error_go_home: Poowrt na stronę główną
+error_go_home: Powrót na stronę główną
